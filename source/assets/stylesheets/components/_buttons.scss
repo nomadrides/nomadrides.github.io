@@ -1,0 +1,8 @@
+.button {
+  &.ghost {
+    border: 3px solid white;
+    background-color: transparent;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+}

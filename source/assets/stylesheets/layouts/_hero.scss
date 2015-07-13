@@ -1,0 +1,42 @@
+.l-hero {
+  background: $primary-color url(image-path("background.jpg")) 0% 50%;
+  padding-bottom: 5%;
+  text-align:center;
+
+  h1, h2, a {
+    color: $white;
+  }
+
+  h1 {
+    padding-top: 25%;
+    font-weight: $font-weight-bold;
+    letter-spacing: -1px;
+    text-shadow: 0 1px 0 rgba($black, 0.8);
+
+    @media #{$medium-up}{
+      font-size: 6em;
+    }
+  }
+
+  h2 {
+    margin-bottom: 1em;
+  }
+
+  .top-bar {
+    background: none;
+  }
+
+  .top-bar-section li,
+  .top-bar-section li a,
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    background: none;
+  }
+
+  .top-bar-section a {
+    font-weight: $font-weight-bold;
+  }
+
+  .learn-more-link {
+    text-decoration: underline;
+  }
+}
