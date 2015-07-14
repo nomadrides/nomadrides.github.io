@@ -10,3 +10,11 @@ $header-font-family:  $font-family-serif;
 
 $font-weight-bold: 700;
 $font-weight-normal: 400;
+
+// 34. Top Bar
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$topbar-bg-color: $white-pure;
+$topbar-link-color: $black;
+$topbar-link-color-hover: $black;
+$topbar-link-bg-hover: $white-pure;
+$topbar-link-font-size: rem-calc(20);

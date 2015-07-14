@@ -29,7 +29,9 @@
   .top-bar-section li,
   .top-bar-section li a,
   .top-bar-section li:not(.has-form) a:not(.button) {
+    color: $white;
     background: none;
+    font-weight: $font-weight-bold;
   }
 
   .top-bar-section a {

@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title = "#{current_page.data.title} - #{data.site.name}" || data.site.name
+    = partial 'layouts/shared/head'
+    = yield_content(:head)
+
+  body class="#{page_classes}"
+    = partial 'layouts/default/navbar'
+    = partial 'layouts/default/banner'
+    = yield
+    = partial 'layouts/shared/footer'
+
+    = yield_content(:javascript)

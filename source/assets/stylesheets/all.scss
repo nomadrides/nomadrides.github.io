@@ -1,15 +1,22 @@
 @charset "utf-8";
 
 @import 'colors';
-@import 'foundation_custom_settings';
 
+@import 'custom-settings/foundation';
 @import "foundation/scss/normalize";
 @import "foundation/scss/foundation";
+
+@import 'custom-settings/typeplate';
+@import "typeplate-starter-kit/scss/typeplate-vars";
+@import "typeplate-starter-kit/scss/typeplate-mixins";
+@import "typeplate-starter-kit/scss/typeplate-helpers";
 
 @import 'components/buttons';
 @import 'components/type';
 
-@import 'layouts/base';
+@import 'layouts/banner';
 @import 'layouts/footer';
-@import 'layouts/section';
 @import 'layouts/hero';
+@import 'layouts/navbar';
+@import 'layouts/page';
+@import 'layouts/section';

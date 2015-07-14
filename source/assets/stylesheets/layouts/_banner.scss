@@ -1,0 +1,9 @@
+.l-banner {
+  background: $primary-color url(image-path("background.jpg")) 0% 50%;
+  padding: rem-calc(40 0);
+  text-align:center;
+
+  h1 {
+    color: $white;
+  }
+}
