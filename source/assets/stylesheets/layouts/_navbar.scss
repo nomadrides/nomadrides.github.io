@@ -1,3 +1,7 @@
-.l-navbar a {
+.l-navbar .name {
   padding-left: rem-calc(10);
+
+  a:hover {
+    color: $black;
+  }
 }

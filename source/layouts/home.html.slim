@@ -8,5 +8,5 @@ html
   body class="home--#{page_classes}"
     = yield
     = partial 'layouts/shared/footer'
-
+    = javascript_include_tag "all"
     = yield_content(:javascript)

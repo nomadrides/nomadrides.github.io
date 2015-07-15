@@ -1,9 +1,11 @@
 .l-banner {
-  background: $primary-color url(image-path("background.jpg")) 0% 50%;
-  padding: rem-calc(40 0);
+  background: $primary-color url(image-path("background.jpg")) 0% 25%;
+  padding: rem-calc(100 0);
   text-align:center;
 
   h1 {
     color: $white;
+    font-weight: $font-weight-bold;
+    text-shadow: 0 1px 0 rgba($black, 0.8);
   }
 }
