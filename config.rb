@@ -22,13 +22,16 @@ activate :blog do |blog|
   blog.paginate           = false
 end
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = :master
+end
+
 configure :build do
+  activate :asset_hash
   activate :minify_css
   activate :minify_html
   activate :minify_javascript
-
-  # Use relative URLs
-  # activate :relative_assets
 end
 
 page '/blog/feed.xml', layout: false
