@@ -32,6 +32,10 @@ configure :build do
   activate :minify_css
   activate :minify_html
   activate :minify_javascript
+
+  activate :robots,   rules:    [{ user_agent: '*', allow: %w(/) }],
+                      sitemap:  "#{data.site.url}/sitemap.xml"
+  activate :sitemap,  hostname: data.site.url
 end
 
 page '/blog/feed.xml', layout: false

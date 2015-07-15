@@ -10,6 +10,8 @@ gem 'middleman-deploy',         '~> 1.0.0'
 gem 'middleman-livereload',     '~> 3.1.0'
 gem 'middleman-minify-html',    '~> 3.4.1'
 gem 'middleman-protect-emails', '~> 0.3.1'
+gem 'middleman-robots',         '~> 1.1.0'
+gem 'middleman-sitemap',        '~> 0.0.13'
 
 gem 'builder',                  '~> 3.2.2' # for feed.xml.builder
 gem 'nokogiri',                 '~> 1.6.6.2'
