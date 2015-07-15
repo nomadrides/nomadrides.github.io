@@ -1,0 +1,25 @@
+// .l-blog--article {
+//   & > p:first-child {
+//     @include typl8-dropcap(
+//       $typl8-dropcap-float-position,
+//       $typl8-dropcap-font-size,
+//       $typl8-dropcap-font-family,
+//       $typl8-dropcap-txt-indent,
+//       $typl8-dropcap-margin,
+//       $typl8-dropcap-padding,
+//       $typl8-dropcap-color,
+//       $typl8-dropcap-line-height,
+//       $typl8-dropcap-bg
+//     );
+//   }
+// }
+
+.l-blog-follow-me {
+  background-color: $grey-light;
+  padding: rem-calc(20 0);
+  text-align: center;
+}
+
+.blog .l-footer {
+  margin-top: 0;
+}

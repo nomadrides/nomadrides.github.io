@@ -14,6 +14,7 @@
     "tests"
   ],
   "dependencies": {
-    "foundation": "~5.5.2"
+    "foundation": "~5.5.2",
+    "typeplate-starter-kit": "~2.1.0"
   }
 }

@@ -1,12 +1,12 @@
 doctype html
 html
   head
-    title = current_page.data.title || data.site.name
+    title = current_page.data.page_title || data.site.name
     = partial 'layouts/shared/head'
     = yield_content(:head)
 
   body class="home--#{page_classes}"
     = yield
     = partial 'layouts/shared/footer'
-    
+
     = yield_content(:javascript)

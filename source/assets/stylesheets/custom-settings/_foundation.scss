@@ -11,6 +11,11 @@ $header-font-family:  $font-family-serif;
 $font-weight-bold: 700;
 $font-weight-normal: 400;
 
+$anchor-font-color: $blue-light;
+$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: 20%);
+
+$paragraph-font-size: 1.25rem;
+
 // 34. Top Bar
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 $topbar-bg-color: $white-pure;

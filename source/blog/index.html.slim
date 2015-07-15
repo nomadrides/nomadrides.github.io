@@ -1,0 +1,16 @@
+---
+layout: blog
+pageable: true
+per_page: 10
+page_title: All our nomad travel stories
+title: Travel stories
+---
+
+div class="row"
+  div class="small-12 columns"
+    - page_articles.each do |article|
+      h2 = link_to article.title, article
+      time datetime="#{article.date}" pubdate=""
+        = article.date.strftime('%m/%d/%Y')
+      p = article.summary
+      = link_to 'Read more →', article

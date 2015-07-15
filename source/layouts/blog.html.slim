@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    title
+      - if current_page.data.page_title
+        = "#{current_page.data.page_title} - #{data.site.name} Blog"
+      - else
+        = "#{data.site.name} Blog"
+
+    = partial 'layouts/shared/head'
+    = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
+
+  body class="#{page_classes}"
+    = partial 'layouts/default/navbar'
+    = partial 'layouts/default/banner'
+
+    div class="l-page"
+      div class="row"
+        div class="smal-12 medium-10 medium-centered columns l-blog--article"
+          - if current_page.data.date
+            time datetime="#{current_page.data.date}" pubdate=""
+              = current_page.data.date.strftime('%m/%d/%Y')
+          = yield
+
+    div class="l-blog-follow-me"
+      div class="row"
+        div class="smal-12 columns"
+          h2 Join me for the next working-trip
+          p
+            ' Wanna join me? Just
+            = mail_to data.site.mail, "send me a message"
+
+    = partial 'layouts/shared/footer'
+    = yield_content(:javascript)
