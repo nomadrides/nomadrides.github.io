@@ -1,9 +1,20 @@
 .button {
+  &.fat {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
   &.ghost {
-    border: 3px solid white;
+    border: 3px solid $white-pure;
     background-color: transparent;
     letter-spacing: 5px;
     text-transform: uppercase;
+
+    &:hover {
+      color: $primary-color;
+      border: 3px solid $white-pure;
+      background-color: $white-pure;
+    }
   }
 
   &.ghost-reverse {

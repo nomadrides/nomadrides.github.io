@@ -5,6 +5,7 @@
 $black: #111111;
 $white: #f5f5f5;
 $white-pure: #fff;
+$white-light: #F5DDBB;
 $grey: #eee;
 $grey-light: scale-color($grey, $lightness: 60%);
 $blue: #00404C;
@@ -15,3 +16,4 @@ $sand: #F8DFB6;
 
 $primary-color: $blue;
 $secondary-color: $green;
+$info-color: $white-light;

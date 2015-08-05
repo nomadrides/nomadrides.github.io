@@ -6,6 +6,7 @@ activate :protect_emails
 
 set :css_dir,     'assets/stylesheets'
 set :images_dir,  'assets/images'
+set :fonts_dir,   'assets/fonts'
 set :js_dir,      'assets/javascripts'
 
 activate :blog do |blog|

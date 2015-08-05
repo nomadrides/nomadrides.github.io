@@ -1,6 +1,5 @@
 .l-hero {
   background: $primary-color url(image-path("background.jpg")) 0% 50%;
-  padding-bottom: 5%;
   text-align:center;
 
   h1, h2, a {
@@ -19,7 +18,7 @@
   }
 
   h2 {
-    margin-bottom: 1em;
+    margin-bottom: 0;
   }
 
   .top-bar {
@@ -38,7 +37,23 @@
     font-weight: $font-weight-bold;
   }
 
+  .baseline {
+    padding-bottom: 10%;
+
+    .sub-baseline {
+      color: $white;
+      margin-top: 0;
+      margin-bottom: rem-calc(50);
+      font-size: rem-calc(30);
+    }
+  }
+
+
   .learn-more-link {
-    text-decoration: underline;
+    i {
+      display: block;
+      font-size: rem-calc(40);
+      text-decoration: none;
+    }
   }
 }

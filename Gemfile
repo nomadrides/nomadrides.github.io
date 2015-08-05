@@ -14,5 +14,7 @@ gem 'middleman-robots',         '~> 1.1.0'
 gem 'middleman-sitemap',        '~> 0.0.13'
 
 gem 'builder',                  '~> 3.2.2' # for feed.xml.builder
+gem 'font-awesome-middleman',   '~> 4.3.0'
 gem 'nokogiri',                 '~> 1.6.6.2'
 gem 'slim',                     '~> 3.0.6'
+
