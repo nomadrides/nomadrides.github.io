@@ -9,8 +9,15 @@ title: Travel stories
 div class="row"
   div class="small-12 columns"
     - page_articles.each do |article|
-      h2 = link_to article.title, article
-      time datetime="#{article.date}" pubdate=""
-        = article.date.strftime('%m/%d/%Y')
-      p = article.summary
-      = link_to 'Read more →', article
+      div class="row"
+        div class="small-12 medium-3 columns l-blog-cover"
+          - if article.data['cover_picture']
+            = image_tag "#{article.eponymous_directory_path}#{article.data['cover_picture']}", alt: article.title
+          - else
+            = image_tag 'blog/default_cover.jpg', alt: article.title
+        div class="small-12 medium-9 columns"
+          h2 = link_to article.title, article
+          time datetime="#{article.date}" pubdate=""
+            = article.date.strftime('%m/%d/%Y')
+          p = article.summary
+          = link_to 'Read more →', article
