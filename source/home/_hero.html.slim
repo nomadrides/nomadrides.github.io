@@ -5,8 +5,16 @@ div class="l-hero"
         li
           = link_to 'Blog', '/blog'
   div class="row"
-    div class="large-12 columns intro-text"
+    div class="large-12 columns baseline"
       h1 = data.site.name
       h2 = data.site.baseline
+      p class="sub-baseline"
+        ' Trip planner platform for short-term digital workers
+        span class="info round label" SOON!
       p = link_to "Discover the last rides", "/blog", class: "button ghost"
-      p = link_to 'Learn more', '#pitch', class: "learn-more-link"
+  div class="row"
+    div class="large-12 columns"
+      p
+        = link_to "#pitch", class: "learn-more-link" do
+          i class="fa fa-arrow-down"
+

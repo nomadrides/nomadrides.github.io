@@ -21,6 +21,8 @@ html
             p
               time datetime="#{current_page.data.date}" pubdate=""
                 = current_page.data.date.strftime('%m/%d/%Y')
+          - if current_page.data['banner_picture']
+            p = image_tag "#{current_page.eponymous_directory_path}#{current_page.data['banner_picture']}"
           = yield
 
     = partial 'blog/join_me'

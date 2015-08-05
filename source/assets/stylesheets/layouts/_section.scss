@@ -1,3 +1,10 @@
+.l-section--content {
+  @media #{$medium-up}{
+    display: flex;
+    align-items: center;
+  }
+}
+
 .l-section--intro {
   background-color: $grey;
   margin-bottom: rem-calc(40);
@@ -8,11 +15,4 @@
 .l-section--pitch {
   padding: rem-calc(40 0);
   text-align: center;
-}
-
-.l-section--content {
-  @media #{$medium-up}{
-    display: flex;
-    align-items: center;
-  }
 }
