@@ -1,3 +1,9 @@
+.blog {
+  .l-footer {
+    margin-top: 0;
+  }
+}
+
 // .l-blog--article {
 //   & > p:first-child {
 //     @include typl8-dropcap(
@@ -18,13 +24,13 @@
   padding-top: rem-calc(20);
 }
 
+.l-blog-image--centered {
+  text-align: center;
+}
+
 .l-blog-join-me {
   background-color: $grey-light;
   padding: rem-calc(20 0);
   margin-top: rem-calc(20);
   text-align: center;
-}
-
-.blog .l-footer {
-  margin-top: 0;
 }
