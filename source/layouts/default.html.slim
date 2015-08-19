@@ -1,11 +1,6 @@
 doctype html
 html
   head
-    title
-      - if current_page.data.page_title
-        = "#{current_page.data.page_title} - #{data.site.name}"
-      - else
-        = data.site.name
     = partial 'layouts/shared/head'
     = yield_content(:head)
 

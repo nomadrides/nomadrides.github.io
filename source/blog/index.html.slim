@@ -4,6 +4,7 @@ pageable: true
 per_page: 10
 page_title: All our nomad travel stories
 title: Travel stories
+description: Discover all our the working destinations we've been so far!
 ---
 
 div class="row"
@@ -12,7 +13,7 @@ div class="row"
       div class="row"
         div class="small-12 medium-3 columns l-blog-cover"
           - if article.data['cover_picture']
-            = image_tag "#{article.eponymous_directory_path}#{article.data['cover_picture']}", alt: article.title
+            = image_tag blog_image_path(article, 'cover_picture'), alt: article.title
           - else
             = image_tag 'blog/default_cover.jpg', alt: article.title
         div class="small-12 medium-9 columns"
