@@ -4,8 +4,37 @@
   }
 }
 
+.blog_index {
+  .l-blog-article {
+    h2 {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.l-blog-article {
+  h2 {
+    font-size: 2.5em;
+    margin: rem-calc(40) 0;
+  }
+
+  h3 {
+    font-size: 2em;
+    margin: rem-calc(30) 0;
+  }
+
+  p {
+    font-size: rem-calc(25);
+    color: $black-light;
+  }
+
+  .l-blog-date {
+    font-size: 1em;
+  }
+}
+
 .l-blog-cover {
-  padding-top: rem-calc(20);
+  margin-top: rem-calc(50);
 }
 
 .l-blog-image--centered {

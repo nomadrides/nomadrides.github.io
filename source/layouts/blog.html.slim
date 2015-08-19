@@ -16,9 +16,9 @@ html
 
     div class="l-page"
       div class="row"
-        div class="smal-12 medium-10 medium-centered columns l-blog--article"
+        div class="smal-12 medium-10 medium-centered columns l-blog-article"
           - if current_page.data.date
-            p
+            p class="l-blog-date"
               time datetime="#{current_page.data.date}" pubdate=""
                 = current_page.data.date.strftime('%m/%d/%Y')
           - if current_page.data['banner_picture']
