@@ -1,12 +1,6 @@
 doctype html
 html
   head
-    title
-      - if current_page.data.page_title
-        = "#{current_page.data.page_title} - #{data.site.name} Blog"
-      - else
-        = "#{data.site.name} Blog"
-
     = partial 'layouts/shared/head'
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
 
@@ -22,7 +16,7 @@ html
               time datetime="#{current_page.data.date}" pubdate=""
                 = current_page.data.date.strftime('%m/%d/%Y')
           - if current_page.data['banner_picture']
-            p = image_tag "#{current_page.eponymous_directory_path}#{current_page.data['banner_picture']}"
+            p = image_tag blog_image_path(current_page, 'banner_picture')
           = yield
 
     = partial 'blog/join_me'
