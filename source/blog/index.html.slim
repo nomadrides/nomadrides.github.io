@@ -19,6 +19,9 @@ div class="row"
         div class="small-12 medium-9 columns"
           h2 = link_to article.title, article
           time datetime="#{article.date}" pubdate=""
-            = article.date.strftime('%m/%d/%Y')
+            => article.date.strftime('%m/%d/%Y')
+          ' –
+          span class="l-blog-author"
+            => article.data['author']
           p = article.summary
           = link_to 'Read more →', article
