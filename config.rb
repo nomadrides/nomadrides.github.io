@@ -24,8 +24,9 @@ activate :blog do |blog|
 end
 
 activate :deploy do |deploy|
-  deploy.method = :git
-  deploy.branch = :master
+  deploy.method       = :git
+  deploy.branch       = :master
+  deploy.build_before = true
 end
 
 configure :build do
