@@ -1,5 +1,5 @@
 .l-section--content {
-  @media #{$medium-up}{
+  @media #{breakpoint(medium up)} {
     display: flex;
     align-items: center;
   }
@@ -9,10 +9,17 @@
   background-color: $grey;
   margin-bottom: rem-calc(40);
   padding: rem-calc(30 0 20);
-  text-align: center;
+
+  p {
+    text-align: center;
+  }
 }
 
 .l-section--pitch {
   padding: rem-calc(40 0);
   text-align: center;
+
+  li {
+    font-size: $paragrah-font-size;
+  }
 }

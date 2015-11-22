@@ -3,3 +3,10 @@
   font-family: $header-font-family;
   font-weight: $font-weight-bold;
 }
+
+.label-coming-soon {
+  @include label;
+  @extend .label;
+  @extend .secondary;
+  border-radius: 2em;
+}

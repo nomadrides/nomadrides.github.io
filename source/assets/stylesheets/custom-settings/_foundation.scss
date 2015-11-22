@@ -1,38 +1,50 @@
-// c. Global
-// - - - - - - - - - - - - - - - - - - - - - - - - -
+// 0. Home made
+// ---------
 $font-family-sans-serif:  'Fanwood Text', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 $font-family-serif:       'Quattrocento', Georgia, Cambria, "Times New Roman", Times, serif;
 
 $font-weight-bold: 700;
 $font-weight-normal: 400;
 
-$body-font-family: $font-family-sans-serif;
+$paragrah-font-size: 1.25rem;
 
-// e. Typography
-// - - - - - - - - - - - - - - - - - - - - - - - - -
+// 1. Global
+// ---------
+$body-background:   $white-pure;
+$body-font-family:  $font-family-sans-serif;
+
+// 4. Base Typography
+// ------------------
 $header-font-family: $font-family-serif;
 
-$h1-font-size: 3.4375rem;
-$h2-font-size: 2.890625rem;
-$h3-font-size: 2.109375rem;
-$h4-font-size: 1.796875rem;
-$h5-font-size: 1.40625rem;
-$h6-font-size: 1.25rem;
+$header-sizes: (
+  small: (
+    'h1': 24,
+    'h2': 20,
+    'h3': 19,
+    'h4': 18,
+    'h5': 17,
+    'h6': 16,
+  ),
+  medium: (
+    'h1': 3.4375rem,
+    'h2': 2.890625rem,
+    'h3': 2.109375rem,
+    'h4': 1.796875rem,
+    'h5': 1.40625rem,
+    'h6': 1.25rem,
+  ),
+);
 
-$paragraph-font-size: 1.25rem;
+$anchor-color: $blue-light;
+$anchor-color-hover: scale-color($anchor-color, $lightness: 20%);
 
-$anchor-font-color: $blue-light;
-$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: 20%);
+// 22. Menu
+// --------
+$menu-item-padding: 0.4em;
 
 // 34. Top Bar
-// - - - - - - - - - - - - - - - - - - - - - - - - -
-$topbar-bg-color: $white-pure;
+// -----------
+$topbar-background: $white-pure;
 $topbar-link-color: $black;
-$topbar-link-color-hover: $black;
-$topbar-link-bg-hover: $white;
-$topbar-link-font-size: rem-calc(20);
 
-$topbar-dropdown-bg: $white-pure;
-
-$topbar-menu-link-color: $black;
-$topbar-menu-icon-color: $black;

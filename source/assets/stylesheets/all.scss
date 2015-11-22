@@ -4,8 +4,8 @@
 
 @import 'colors';
 @import 'custom-settings/foundation';
-@import 'foundation/scss/normalize';
-@import 'foundation/scss/foundation';
+@import 'foundation-sites';
+@include foundation-everything;
 
 @import 'custom-settings/typeplate';
 @import 'typeplate-starter-kit/scss/typeplate-vars';
@@ -14,6 +14,7 @@
 
 @import 'components/buttons';
 @import 'components/labels';
+@import 'components/lists';
 @import 'components/type';
 
 @import 'layouts/banner';

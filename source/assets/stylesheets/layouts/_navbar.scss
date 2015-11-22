@@ -1,7 +1,20 @@
-.l-navbar .name {
-  padding-left: rem-calc(10);
+.l-navbar {
+  background-color: $white-pure;
 
-  a:hover {
+  a, a:hover {
     color: $black;
+  }
+
+  li {
+    background-color: $white-pure;
+  }
+
+  &.title-bar {
+    background-color: $white-pure;
+    color: $black;
+  }
+
+  .name {
+    font-size: 1em;
   }
 }

@@ -2,6 +2,8 @@
   &.fat {
     letter-spacing: 5px;
     text-transform: uppercase;
+    padding: 1.2em 2em;
+    font-size: rem-calc(16);
   }
 
   &.ghost {

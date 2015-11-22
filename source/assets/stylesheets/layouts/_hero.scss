@@ -12,7 +12,7 @@
     letter-spacing: -1px;
     text-shadow: 0 1px 0 rgba($black, 0.8);
 
-    @media #{$medium-up}{
+    @media #{breakpoint(medium up)} {
       font-size: 6em;
     }
   }
@@ -23,6 +23,11 @@
 
   .top-bar {
     background: none;
+
+    a, li, ul {
+      background: none;
+      font-weight: $font-weight-bold;
+    }
   }
 
   .top-bar-section li,

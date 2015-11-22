@@ -1,11 +1,16 @@
-nav class="top-bar l-navbar" data-topbar="" role="navigation"
-  ul class="title-area"
-    li class="name"
-      = link_to data.site.name, '/', class: "emperor"
-    li class="toggle-topbar menu-icon"
-      a href="#"
-        span Menu
-  section class="top-bar-section"
-    ul class="right"
+div class="l-navbar title-bar clearfix" data-responsive-toggle="top-menu" data-hide-for="medium"
+  div class="float-left"
+    ul class="menu"
+      li = link_to data.site.name, '/', class: "name acolyte"
+  div class="float-right"
+    button class="menu-icon dark" type="button" data-toggle=""
+
+div class="l-navbar top-bar" id="top-menu"
+  div class="top-bar-left hide-for-small-only"
+    ul class="menu"
+      li tabindex="0" role="menuitem"
+        = link_to data.site.name, '/', class: "name acolyte"
+  div class="top-bar-right"
+    ul class="menu float-right"
       li
         = link_to 'Blog', '/blog'
