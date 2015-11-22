@@ -23,8 +23,16 @@ module MetaTagsHelper
     end
   end
 
+  def meta_tag_site_name
+    data.site.name
+  end
+
   def meta_tag_title
     current_page.data.page_title || data.site.name
+  end
+
+  def meta_tag_twitter
+    "@#{data.site.twitter}"
   end
 
   def meta_tag_url
