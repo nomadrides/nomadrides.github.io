@@ -1,10 +1,12 @@
 @charset 'utf-8';
 
+@import 'compass';
 @import 'font-awesome';
 
 @import 'colors';
 @import 'custom-settings/foundation';
 @import 'foundation-sites';
+@include foundation-flex-grid;
 @include foundation-everything;
 
 @import 'custom-settings/typeplate';
@@ -19,6 +21,7 @@
 
 @import 'layouts/banner';
 @import 'layouts/blog';
+@import 'layouts/error';
 @import 'layouts/footer';
 @import 'layouts/hero';
 @import 'layouts/navbar';

@@ -170,6 +170,7 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.2.2)
+  compass
   font-awesome-middleman (~> 4.4.1)
   middleman (~> 3.4.0)
   middleman-autoprefixer (~> 2.6.1)
