@@ -1,30 +1,21 @@
-doctype html
-html
-  head
-    = partial 'layouts/shared/head'
-    = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
+- content_for :head
+  = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
 
-  body class="#{page_classes}"
-    = partial 'layouts/default/navbar'
-    = partial 'layouts/default/banner'
+= wrap_layout :page do
+  div class="l-page"
+    div class="row"
+      div class="small-12 medium-10 medium-centered columns l-blog-article"
+        div class="text-right"
+          - if current_page.data['author']
+            span class="l-blog-author"
+              => current_page.data['author']
+              ' –
+          - if current_page.data.date
+            span class="l-blog-date"
+              time datetime="#{current_page.data.date}" pubdate=""
+                = current_page.data.date.strftime('%m/%d/%Y')
+        - if current_page.data['banner_picture']
+          p = image_tag blog_image_path(current_page, 'banner_picture')
+        = yield
 
-    div class="l-page"
-      div class="row"
-        div class="small-12 medium-10 medium-centered columns l-blog-article"
-          div class="text-right"
-            - if current_page.data['author']
-              span class="l-blog-author"
-                => current_page.data['author']
-                ' –
-            - if current_page.data.date
-              span class="l-blog-date"
-                time datetime="#{current_page.data.date}" pubdate=""
-                  = current_page.data.date.strftime('%m/%d/%Y')
-          - if current_page.data['banner_picture']
-            p = image_tag blog_image_path(current_page, 'banner_picture')
-          = yield
-
-    = partial 'blog/join_me'
-    = partial 'layouts/shared/footer'
-    = javascript_include_tag "all"
-    = yield_content(:javascript)
+  = partial 'blog/join_me'

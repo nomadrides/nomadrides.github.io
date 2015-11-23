@@ -1,5 +1,5 @@
-- content_for :body_class, "home--#{page_classes}"
-
 = wrap_layout :default do
+  = partial 'layouts/page/navbar'
+  = partial 'layouts/page/banner'
   = yield
   = partial 'layouts/shared/footer'

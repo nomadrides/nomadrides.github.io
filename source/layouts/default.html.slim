@@ -4,11 +4,8 @@ html
     = partial 'layouts/shared/head'
     = yield_content(:head)
 
-  body class="#{page_classes}"
-    = partial 'layouts/default/navbar'
-    = partial 'layouts/default/banner'
+  body class="#{page_classes} #{yield_content(:body_class)}"
     = yield
-    = partial 'layouts/shared/footer'
 
     = javascript_include_tag "all"
     = yield_content(:javascript)
