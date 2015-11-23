@@ -1,13 +1,18 @@
 .l-hero {
   background: $primary-color url(image-path("background.jpg")) 0% 50%;
   text-align:center;
+  height: 100%;
+  position: relative;
+
+  .align-middle {
+    height: 100%;
+  }
 
   h1, h2, a {
     color: $white;
   }
 
   h1 {
-    padding-top: 25%;
     font-weight: $font-weight-bold;
     letter-spacing: -1px;
     text-shadow: 0 1px 0 rgba($black, 0.8);
@@ -45,6 +50,11 @@
   .baseline {
     padding-bottom: 10%;
 
+    .button {
+      margin-right: 0;
+      margin-bottom: 5%;
+    }
+
     .sub-baseline {
       color: $white;
       margin-top: 0;
@@ -53,11 +63,17 @@
     }
   }
 
-
   .learn-more-link {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+
     i {
+      @include animation(bounce 3s infinite);
+
       display: block;
       font-size: rem-calc(40);
+      margin-left: rem-calc(-15);
       text-decoration: none;
     }
   }
