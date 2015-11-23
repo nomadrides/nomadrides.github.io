@@ -7,4 +7,5 @@
 //= require "foundation-sites/js/foundation.dropdownMenu"
 //= require "foundation-sites/js/foundation.responsiveToggle"
 
-//= require_tree .
+//= require "components/_foundation"
+//= require "components/_smooth_scroll"
