@@ -28,6 +28,11 @@
     color: $black-light;
   }
 
+  li {
+    font-size: $paragrah-font-size;
+  }
+
+
   .l-blog-date {
     font-size: 1em;
   }
@@ -42,8 +47,10 @@
 }
 
 .l-blog-join-me {
-  background-color: $grey-light;
-  padding: rem-calc(20 0);
+  background-color: $sand;
+  color: $black-light;
+  padding-top: rem-calc(30);
+  padding-bottom: rem-calc(20);
   margin-top: rem-calc(20);
   text-align: center;
 }

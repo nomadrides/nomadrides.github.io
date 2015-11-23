@@ -36,7 +36,7 @@ $header-sizes: (
   ),
 );
 
-$anchor-color: $blue-light;
+$anchor-color: $primary-color;
 $anchor-color-hover: scale-color($anchor-color, $lightness: 20%);
 
 // 22. Menu

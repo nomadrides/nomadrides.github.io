@@ -1,10 +1,11 @@
 .l-footer {
-  background-color: $grey;
+  background-color: $blue;
+  color: $white;
   margin-top: rem-calc(40);
   padding: rem-calc(40 0 30);
 
   a {
-    color: $black;
+    color: $white;
 
     &:hover {
       text-decoration: underline;
@@ -13,5 +14,14 @@
 
   li {
     font-size: $paragrah-font-size;
+  }
+
+  .button {
+    background-color: $blue-dark;
+  }
+
+  .email {
+    background-color: $blue;
+    color: $white;
   }
 }
