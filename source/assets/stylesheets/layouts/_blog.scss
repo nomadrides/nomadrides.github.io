@@ -39,6 +39,12 @@
 
 .l-blog-image--centered {
   text-align: center;
+
+  @include breakpoint(small) {
+    img {
+      margin-bottom: rem-calc(10);
+    }
+  }
 }
 
 .l-blog-join-me {
