@@ -91,7 +91,7 @@ It's really interesting to see how other freelancers actually work and how other
 
 I have a ton of new ideas and can't wait to go on a new remote working trip!
 
-### Fun facts & Tips
+### Fun facts & Hints
 
 Don't try to be a hero and walk accross the city by foot. Just rent a bike!
 
