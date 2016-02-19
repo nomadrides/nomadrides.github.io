@@ -29,7 +29,9 @@
 }
 
 .l-section--riders {
+  background-color: $grey-light;
   margin-top: rem-calc(20);
+  padding: rem-calc(20) 0;
 
   h2 {
     margin-bottom: rem-calc(20);
