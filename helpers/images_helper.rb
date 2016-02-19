@@ -4,6 +4,14 @@ module ImagesHelper
   end
 
   def page_image_path(filename)
-    image_path("#{current_page.eponymous_directory_path}#{filename}")
+    path = current_page.eponymous_directory_path
+
+    # remove index from path
+    path.gsub!(/index\/\z/, '') if current_page.directory_index?
+
+    # set to home if only slash
+    path = 'home/' if path.blank?
+
+    image_path("#{path}#{filename}")
   end
 end
