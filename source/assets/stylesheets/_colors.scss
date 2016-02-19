@@ -9,6 +9,7 @@ $white-pure: #fff;
 $white-light: #F5DDBB;
 $grey: #eee;
 $grey-light: scale-color($grey, $lightness: 60%);
+$grey-dark: scale-color($grey, $lightness: -60%);
 $blue: #3D8087;
 $blue-dark: #00404C;
 $green: #172C28;

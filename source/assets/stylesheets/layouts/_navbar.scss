@@ -7,6 +7,10 @@
 
   li {
     background-color: $white-pure;
+
+    a {
+      margin: 0 rem-calc(10);
+    }
   }
 
   &.title-bar {

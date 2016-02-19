@@ -27,3 +27,15 @@
   padding: rem-calc(40 0);
   text-align: center;
 }
+
+.l-section--riders {
+  margin-top: rem-calc(20);
+
+  h2 {
+    margin-bottom: rem-calc(20);
+  }
+
+  .button {
+    margin-top: rem-calc(10);
+  }
+}

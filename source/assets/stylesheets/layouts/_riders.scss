@@ -1,0 +1,61 @@
+.l-riders--intro {
+  @extend .typl8-drop-cap;
+  margin-bottom: rem-calc(40);
+}
+
+.l-rider {
+  @extend .thumbnail;
+  border: none;
+  margin-bottom: rem-calc(30);
+  background-color: $white-pure;
+
+  h2, h3 {
+    @extend h5;
+    margin-bottom: 0;
+    color: $primary-color;
+  }
+
+  h2, h3, .activity {
+    text-align: center;
+  }
+
+  img {
+    border-radius: 0;
+  }
+
+  .activity {
+    @extend h6;
+    color: $grey-dark;
+  }
+
+  .biography-container {
+    position: relative;
+
+    .biography {
+      display: flex;
+      align-items: center;
+      visibility: hidden;
+
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 0 rem-calc(20);
+      background-color: rgba($white, 0.9);
+      text-align: center;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    &:hover .biography {
+      visibility: visible;
+    }
+  }
+
+  .details {
+    padding: rem-calc(10);
+  }
+}
