@@ -8,5 +8,5 @@
   @include label;
   @extend .label;
   @extend .secondary;
-  border-radius: 2em;
+  border-radius: rem-calc(20);
 }
