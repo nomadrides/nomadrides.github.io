@@ -8,7 +8,7 @@ claire:
   website: http://lesfilmsdesdeuxmains.com/
 clement:
   activity: Web developer
-  biography: He decided to learn Ruby on Rails a couple of months ago and now he is passionate about web development.
+  biography: He decided to learn Ruby on Rails and now he is passionated about web development.
   image: clement.jpg
   image_alt: Clément, Le Wagon alumni
   name: Clément
@@ -27,6 +27,13 @@ guillaume:
   image_alt: Guillaume, digital arts
   name: Guillaume
   website: http://lacoroutine.org/en.html
+david:
+  activity: Web developer
+  biography: Learned how to code & launched a web app that helps judges to manage tennis tournaments.
+  image: david.jpg
+  image_alt: David, Le Wagon alumni
+  name: David
+  website: http://www.wetennis.fr/
 cecile:
   activity: Rails Developer / Teacher
   biography: |
