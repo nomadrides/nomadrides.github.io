@@ -15,57 +15,16 @@ div class="l-page"
         = link_to "stories", "/blog"
         ' .
   div class="row"
-    div class="small-12 medium-6 large-3 columns"
-      div class="l-rider"
-        div class="biography-container"
-          = image_tag "riders/claire.jpg", alt: "Claire Jeandroz, film maker"
-          div class="biography"
-            p
-              ' She launched in 2009 an association dedicated to teaching the art of film making.
-        div class="details"
-          h2 = link_to "Claire", "http://lesfilmsdesdeuxmains.com/"
-          p class="activity" Film maker
-    div class="small-12 medium-6 large-3 columns"
-      div class="l-rider"
-        div class="biography-container"
-          = image_tag "riders/clement.jpg", alt: "Clément, Le Wagon alumni"
-          div class="biography"
-            p
-              ' He decided to learn Ruby on Rails a couple of months ago and now he is passionate about web development.
-        div class="details"
-          h2 = link_to "Clément", "http://clemldy.com/"
-          p class="activity" Web developer
-    div class="small-12 medium-6 large-3 columns"
-      div class="l-rider"
-        div class="biography-container"
-          = image_tag "riders/francois.jpg", alt: "François, Talkus co-founder"
-          div class="biography"
-            p
-              ' He co-founded Talkus, an embedded website chat tool connected to Slack.
-        div class="details"
-          h2 = link_to "François", "https://www.talkus.io/"
-          p class="activity" Startup CTO
-    div class="small-12 medium-6 large-3 columns"
-      div class="l-rider"
-        div class="biography-container"
-          = image_tag "riders/guillaume.jpg", alt: "Guillaume, digital arts"
-          div class="biography"
-            p
-              ' Backpacker, traveler, he also co-founded La Coroutine, coworking space in Lille, France.
-        div class="details"
-          h2 = link_to "Guilaume", "http://lacoroutine.org/en.html"
-          p class="activity" Digital arts
-    div class="small-12 medium-6 large-3 columns"
-      div class="l-rider"
-        div class="biography-container"
-          = image_tag "riders/cecile.jpg", alt: "Cecile, remote working addict"
-          div class="biography"
-            p
-              ' Cecile is visiting Europe while working remotely for her clients.
-              ' She decided to get on board folks in her trips!
-        div class="details"
-          h2 = link_to "Cecile", "http://cecilitse.org/"
-          p class="activity" Rails Developer / Teacher
+    - data.riders.each do |_slug, rider|
+      div class="small-12 medium-6 large-3 columns"
+        div class="l-rider"
+          div class="biography-container"
+            = image_tag "riders/#{rider.image}", alt: rider.image_alt
+            div class="biography"
+              p => rider.biography
+          div class="details"
+            h2 = link_to rider.name, rider.website
+            p class="activity" = rider.activity
     div class="small-12 medium-6 large-3 columns"
       div class="l-rider"
         div class="biography-container"
