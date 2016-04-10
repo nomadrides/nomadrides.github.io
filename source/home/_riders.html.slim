@@ -5,24 +5,9 @@ div class="l-section--riders" id="riders"
   div class="row align-center"
     - data.riders.take(2).each do |_slug, rider|
       div class="small-12 medium-4 large-3 columns"
-        div class="l-rider"
-          div class="biography-container"
-            = image_tag "riders/#{rider.image}", alt: rider.image_alt
-            div class="biography"
-              p => rider.biography
-          div class="rider"
-            h3 = link_to rider.name, rider.website
-            p class="activity" rider.activity
+        = partial 'riders/rider', locals: { rider: rider }
     div class="small-12 medium-4 large-3 columns"
-      div class="l-rider"
-        div class="biography-container"
-          = image_tag "riders/traveler.jpg", alt: "Travel with us"
-          div class="biography"
-            p
-              ' Join us in this adventure!
-        div class="rider"
-          h3 What about YOU?!
-          p class="activity" The amazing worker
+      = partial 'riders/join_us'
   div class="row"
     div class="small-12 columns text-center"
       = link_to "Meet more riders", "/riders", class: "button fat"
