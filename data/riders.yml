@@ -1,0 +1,45 @@
+# Order by appearance on the riders page
+claire:
+  activity: Film maker
+  biography: She launched in 2009 an association dedicated to teaching the art of film making.
+  image: claire.jpg
+  image_alt: Claire Jeandroz, film maker
+  name: Claire
+  website: http://lesfilmsdesdeuxmains.com/
+clement:
+  activity: Web developer
+  biography: He decided to learn Ruby on Rails and now he is passionated about web development.
+  image: clement.jpg
+  image_alt: Clément, Le Wagon alumni
+  name: Clément
+  website: http://clemldy.com/
+francois:
+  activity: Startup CTO
+  biography: He co-founded Talkus, an embedded website chat tool connected to Slack.
+  image: francois.jpg
+  image_alt: François, Talkus co-founder
+  name: François
+  website: https://www.talkus.io/
+guillaume:
+  activity: Digital arts
+  biography: Backpacker, traveler, he also co-founded La Coroutine, coworking space in Lille, France.
+  image: guillaume.jpg
+  image_alt: Guillaume, digital arts
+  name: Guillaume
+  website: http://lacoroutine.org/en.html
+david:
+  activity: Web developer
+  biography: Learned how to code & launched a web app that helps judges to manage tennis tournaments.
+  image: david.jpg
+  image_alt: David, Le Wagon alumni
+  name: David
+  website: http://www.wetennis.fr/
+cecile:
+  activity: Rails Developer / Teacher
+  biography: |
+    Cecile is visiting Europe while working remotely for her clients.
+    She decided to get on board folks in her trips!
+  image: cecile.jpg
+  image_alt: Cecile, remote working addict
+  name: Cecile
+  website: http://cecilitse.org/

@@ -3,36 +3,11 @@ div class="l-section--riders" id="riders"
     div class="small-12 columns text-center"
       h2 Our Amazing Riders
   div class="row align-center"
+    - data.riders.take(2).each do |_slug, rider|
+      div class="small-12 medium-4 large-3 columns"
+        = partial 'riders/rider', locals: { rider: rider }
     div class="small-12 medium-4 large-3 columns"
-      div class="l-rider"
-        div class="biography-container"
-          = image_tag "riders/claire.jpg", alt: "Claire Jeandroz, film maker"
-          div class="biography"
-            p
-              ' She launched in 2009 an association dedicated to teaching the art of film making.
-        div class="rider"
-          h3 = link_to "Claire", "http://lesfilmsdesdeuxmains.com/"
-          p class="activity" Film maker
-    div class="small-12 medium-4 large-3 columns"
-      div class="l-rider"
-        div class="biography-container"
-          = image_tag "riders/clement.jpg", alt: "Clément, Le Wagon alumni"
-          div class="biography"
-            p
-              ' He decided to learn Ruby on Rails a couple of months ago and now he is passionate about web development.
-        div class="rider"
-          h3 = link_to "Clément", "http://clemldy.com/"
-          p class="activity" Web developer
-    div class="small-12 medium-4 large-3 columns"
-      div class="l-rider"
-        div class="biography-container"
-          = image_tag "riders/traveler.jpg", alt: "Travel with us"
-          div class="biography"
-            p
-              ' Join us in this adventure!
-        div class="rider"
-          h3 What about YOU?!
-          p class="activity" The amazing worker
+      = partial 'riders/join_us'
   div class="row"
     div class="small-12 columns text-center"
       = link_to "Meet more riders", "/riders", class: "button fat"

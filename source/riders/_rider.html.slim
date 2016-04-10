@@ -1,0 +1,8 @@
+div class="l-rider"
+  div class="biography-container"
+    = image_tag "riders/#{rider.image}", alt: rider.image_alt
+    div class="biography"
+      p => rider.biography
+  div class="details"
+    h3 = link_to rider.name, rider.website
+    p class="activity" = rider.activity
