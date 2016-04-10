@@ -47,7 +47,7 @@ Besides, working and living in the flat, we add many more activities:
 * and **Budapest**, its history, districts and night life
 
 For sure, we also hang out a lot!
-For more details about Budapest, have a look at my [previous post](/blogk/articles/2016-02-17-budapest.html).
+For more details about Budapest, have a look at my [previous post](/blog/2016-02-17-budapest.html).
 
 {:.l-blog-image--centered}
 ![LOffice Café](/assets/images/blog/articles/2016-04-10-startup-house/loffice-cafe.jpg)
