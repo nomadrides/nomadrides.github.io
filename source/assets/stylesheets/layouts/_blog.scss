@@ -23,9 +23,14 @@
     margin: rem-calc(30) 0;
   }
 
-  p {
+  p, li {
     font-size: rem-calc(25);
     color: $black-light;
+  }
+
+  ul {
+    list-style-type: square;
+    padding-left: 2em;
   }
 
   .l-blog-date {
