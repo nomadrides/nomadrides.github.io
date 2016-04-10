@@ -2,20 +2,10 @@
   = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
 
 = wrap_layout :page do
-  div class="l-page"
+  div class="l-page l-blog-article"
+    - if blog_article_page?
+      = partial 'layouts/blog/article_header'
     div class="row align-center"
-      div class="small-12 medium-10 columns l-blog-article"
-        div class="text-right"
-          - if current_page.data['author']
-            span class="l-blog-author"
-              => current_page.data['author']
-              ' –
-          - if current_page.data.date
-            span class="l-blog-date"
-              time datetime="#{current_page.data.date}" pubdate=""
-                = current_page.data.date.strftime('%m/%d/%Y')
-        - if current_page.data['banner_picture']
-          p = image_tag blog_image_path(current_page, 'banner_picture')
+      div class="small-12 medium-10 columns"
         = yield
-
-  = partial 'blog/join_me'
+  = partial 'layouts/blog/join_me'

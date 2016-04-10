@@ -36,6 +36,12 @@
   .l-blog-date {
     font-size: 1em;
   }
+
+  .l-blog-authoring {
+    @media #{breakpoint(medium up)} {
+      text-align: right;
+    }
+  }
 }
 
 .l-blog-cover {
