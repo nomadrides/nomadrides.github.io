@@ -1,9 +1,9 @@
 ---
 date: 2016-04-10
 author: Cecile
-page_title: "I gave a shot to a Startup House project"
-title: "Startup House project"
-description: "Experimenting the Startup House project in Budapest and Paris"
+page_title: "I gave a shot to a Startup House"
+title: "Startup Houses"
+description: "Experimenting a Startup House project in Budapest and Paris"
 cover_picture: working-from-living-room.jpg
 banner_picture: cosy-living-room.jpg
 ---
@@ -32,13 +32,13 @@ The house, in a few numbers:
 * **200 m2** with 4 bedrooms & 1 living room
 * **15 people**
 * **6 nationalities** coming from UK, The Netherlands, France, Turkey, Belgium, Croatia
-* **5+ different skills** from web developer to Turkish jewellery manufacturer passing by CTO, marketing consultant, coaches, etc.
+* **5+ different skills** from web developer to Turkish jewellery manufacturer including CTO, marketing consultant, coaches, etc.
 
 ![Startup House Budapest](/assets/images/blog/articles/2016-04-10-startup-house/startup-house-budapest.jpg)
 
 ### A great journey
 
-Besides, working and living in the flat, we add many more activities:
+Besides, working and living in the flat, we had many more activities:
 
 * **Talks** organized by and for each other
 * **Speakers** coming from local startups such as [EDMdesigner](http://edmdesigner.com/) and [Ustream](http://www.ustream.tv/)
@@ -61,10 +61,11 @@ So I crashed in this new house for a few days!
 
 Some facts again:
 
-- both **coliving** and **coworking** house
-- **100 m2** with 3 bedrooms & 1 living room
-- **10 people**
+* both **coliving** and **coworking** house
+* **100 m2** with 3 bedrooms & 1 living room
+* **10 people**
 * **5+ different skills** with brand founder, graphist, developer, bootcamp student, business intelligence consultant, etc.
+* **weekly events**
 
 The concept is totally different. It looks more like a room sharing apartment than a startup retreat apartment but still for startupers.
 
