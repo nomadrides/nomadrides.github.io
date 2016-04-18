@@ -13,13 +13,6 @@ clement:
   image_alt: Clément, Le Wagon alumni
   name: Clément
   website: http://clemldy.com/
-francois:
-  activity: Startup CTO
-  biography: He co-founded Talkus, an embedded website chat tool connected to Slack.
-  image: francois.jpg
-  image_alt: François, Talkus co-founder
-  name: François
-  website: https://www.talkus.io/
 guillaume:
   activity: Digital arts
   biography: Backpacker, traveler, he also co-founded La Coroutine, coworking space in Lille, France.
@@ -34,6 +27,13 @@ david:
   image_alt: David, Le Wagon alumni
   name: David
   website: http://www.wetennis.fr/
+francois:
+  activity: Startup CTO
+  biography: He co-founded Talkus, an embedded website chat tool connected to Slack.
+  image: francois.jpg
+  image_alt: François, Talkus co-founder
+  name: François
+  website: https://www.talkus.io/
 cecile:
   activity: Rails Developer / Teacher
   biography: |
