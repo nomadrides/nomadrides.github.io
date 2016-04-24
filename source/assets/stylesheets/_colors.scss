@@ -18,3 +18,11 @@ $sand: #F8DFB6;
 
 $primary-color:   $blue;
 $secondary-color: $white-light;
+
+$foundation-palette: (
+  primary: $blue,
+  secondary: $white-light,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #ec5840,
+);

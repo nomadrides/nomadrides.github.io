@@ -1,15 +1,16 @@
 div class="l-hero"
   div class="top-bar"
     div class="top-bar-right"
-      ul class="menu"
+      ul class="menu align-right"
         li
           = link_to 'Riders', '/riders'
         li
           = link_to 'Blog', '/blog'
-  div class="row align-middle"
-    div class="large-12 columns baseline"
+
+  div class="row align-middle baseline"
+    div class="large-12 columns"
       h1 = data.site.name
-      h2 = data.site.baseline
+      h2 class="show-for-medium" = data.site.baseline
       p class="sub-baseline"
         ' Trip planner platform for short-term digital workers
         span class="label-coming-soon" SOON!

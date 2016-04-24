@@ -12,6 +12,7 @@ $paragrah-font-size: 1.25rem;
 // ---------
 $body-background:   $white-pure;
 $body-font-family:  $font-family-sans-serif;
+$global-flexbox:    true;
 
 // 4. Base Typography
 // ------------------
@@ -46,4 +47,4 @@ $menu-item-padding: 0.4em;
 // 34. Top Bar
 // -----------
 $topbar-background: $white-pure;
-$topbar-link-color: $black;
+$topbar-padding: 0;
