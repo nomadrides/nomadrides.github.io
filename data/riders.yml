@@ -34,6 +34,14 @@ francois:
   image_alt: François, Talkus co-founder
   name: François
   website: https://www.talkus.io/
+flexbox:
+  activity: Front-end dev / Teacher
+  biography: |
+    Traveller & Music lover, David explore the world & solve problems for people.   — move fast & get sh$t done!
+  image: david-leuliette.jpg
+  image_alt: David aka flexbox on GitHub
+  name: David
+  website: http://davidl.fr
 cecile:
   activity: Rails Developer / Teacher
   biography: |
