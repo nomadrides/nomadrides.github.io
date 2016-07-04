@@ -20,8 +20,8 @@ div class="row"
           h2 = link_to article.title, article
           time datetime="#{article.date}" pubdate=""
             => article.date.strftime('%m/%d/%Y')
-          ' –
-          span class="l-blog-author"
+          ' —
+          em class="l-blog-author"
             => article.data['author']
           p = article.summary
-          = link_to 'Read more →', article
+          = link_to 'Read more →', article, class: 'button-link'

@@ -1,7 +1,8 @@
 .button {
+  text-transform: uppercase;
+
   &.fat {
     letter-spacing: 5px;
-    text-transform: uppercase;
     margin-right: 0;
     padding: rem-calc(20) rem-calc(30);
     font-size: rem-calc(16);
@@ -12,7 +13,6 @@
     background-color: transparent;
     letter-spacing: 5px;
     margin-right: 0;
-    text-transform: uppercase;
 
     &:hover, &:focus {
       color: $primary-color;
@@ -26,6 +26,16 @@
     border: 3px solid $primary-color;
     background-color: transparent;
     letter-spacing: 5px;
-    text-transform: uppercase;
+  }
+}
+
+.button-link {
+  display: block;
+  padding: 10px 10px 10px 0px;
+  transition: all ease-in 300ms;
+  max-width: 150px;
+
+  &:hover, &:focus {
+    transform: translateX(5px);
   }
 }
