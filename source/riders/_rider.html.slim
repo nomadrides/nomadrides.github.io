@@ -1,8 +1,8 @@
-div class="l-rider"
-  div class="biography-container"
-    = image_tag "riders/#{rider.image}", alt: rider.image_alt
-    div class="biography"
+div class="c-rider"
+  div class="c-rider-biography-container"
+    = image_tag "riders/#{rider.image}", alt: rider.image_alt, class: 'c-rider-avatar'
+    div class="c-rider-biography"
       p => rider.biography
-  div class="details"
-    h3 = link_to rider.name, rider.website
-    p class="activity" = rider.activity
+  div class="c-rider-details"
+    h3 class="c-rider-name" = link_to rider.name, rider.website
+    p class="c-rider-activity" = rider.activity

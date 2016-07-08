@@ -1,0 +1,11 @@
+.p-home-content {
+  @media #{breakpoint(medium up)} {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.p-home-pitch {
+  padding: rem-calc(40 0);
+  text-align: center;
+}

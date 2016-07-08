@@ -11,17 +11,17 @@ div class="row"
   div class="small-12 columns"
     - page_articles.each do |article|
       div class="row"
-        div class="small-12 medium-3 columns l-blog-cover"
+        div class="small-12 medium-3 columns c-blog-cover"
           - if article.data['cover_picture']
             = image_tag blog_image_path(article, 'cover_picture'), alt: article.title
           - else
             = image_tag 'blog/default_cover.jpg', alt: article.title
         div class="small-12 medium-9 columns"
-          h2 = link_to article.title, article
+          h2 class="c-blog-title" = link_to article.title, article
           time datetime="#{article.date}" pubdate=""
             => article.date.strftime('%m/%d/%Y')
           ' —
-          em class="l-blog-author"
+          em class="c-blog-author"
             => article.data['author']
-          p = article.summary
+          p class="c-blog-summary" = article.summary
           = link_to 'Read more →', article, class: 'button-link'

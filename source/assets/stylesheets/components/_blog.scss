@@ -1,0 +1,33 @@
+.c-blog-authoring {
+  @media #{breakpoint(medium up)} {
+    text-align: right;
+  }
+}
+
+.c-blog-cover {
+  margin-top: rem-calc(50);
+}
+
+.c-blog-date {
+  font-size: 1em;
+}
+
+.c-blog-image--centered {
+  text-align: center;
+
+  @include breakpoint(small) {
+    img {
+      margin-bottom: rem-calc(10);
+    }
+  }
+}
+
+.c-blog-summary {
+  font-size: rem-calc(25);
+  color: $black-light;
+}
+
+.c-blog-title {
+  font-size: 2.5em;
+  margin: rem-calc(40) 0 0 0;
+}

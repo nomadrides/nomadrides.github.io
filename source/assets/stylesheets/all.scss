@@ -1,31 +1,57 @@
 @charset 'utf-8';
 
+// Settings
+@import 'settings/colors';
+@import 'settings/variables';
+
+// Tools (mixins / functions)
+// ... nothing ...
+
+// Vendors
 @import 'compass';
 @import 'font-awesome';
 
-@import 'colors';
-@import 'custom-settings/foundation';
+@import 'vendors-settings/foundation';
 @import 'foundation-sites';
 @include foundation-everything(true);
 
-@import 'custom-settings/typeplate';
+@import 'vendors-settings/typeplate';
 @import 'typeplate-starter-kit/scss/typeplate-vars';
 @import 'typeplate-starter-kit/scss/typeplate-mixins';
 @import 'typeplate-starter-kit/scss/typeplate-helpers';
 
-@import 'components/animations';
+// Generic (ground zero styles / reset / normalize)
+// ... nothing ...
+
+// Base
+@import 'base/animations';
+@import 'base/typography';
+
+// Objects
+// ... nothing ...
+
+// Components (for now also Objects)
+// -- base
 @import 'components/buttons';
 @import 'components/images';
 @import 'components/labels';
 @import 'components/lists';
-@import 'components/type';
+@import 'components/typography';
+// -- custom
+@import 'components/blog';
+@import 'components/riders';
 
-@import 'layouts/banner';
-@import 'layouts/blog';
-@import 'layouts/error';
-@import 'layouts/footer';
-@import 'layouts/hero';
-@import 'layouts/navbar';
-@import 'layouts/page';
-@import 'layouts/riders';
-@import 'layouts/section';
+// Layout
+@import 'layout/banner';
+@import 'layout/footer';
+@import 'layout/navbar';
+
+// Page
+@import 'pages/default';
+@import 'pages/blog';
+@import 'pages/error';
+@import 'pages/home/hero';
+@import 'pages/home/intro';
+@import 'pages/home/pitch';
+@import 'pages/home/riders';
+@import 'pages/riders';

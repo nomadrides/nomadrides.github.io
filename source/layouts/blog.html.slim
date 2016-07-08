@@ -2,7 +2,7 @@
   = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
 
 = wrap_layout :page do
-  div class="l-page l-blog-article"
+  div class="p-default #{blog_page_css_class_name}"
     - if blog_article_page?
       = partial 'layouts/blog/article_header'
     div class="row align-center"

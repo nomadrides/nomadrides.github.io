@@ -1,0 +1,18 @@
+.emperor, %emperor {
+  @extend h1;
+}
+.vador, %vador {
+  @extend h2;
+}
+.maul, %maul {
+  @extend h3;
+}
+.sith, %sith {
+  @extend h4;
+}
+.acolyte, %acolyte {
+  @extend h5;
+}
+.human, %human {
+  @extend h6;
+}
