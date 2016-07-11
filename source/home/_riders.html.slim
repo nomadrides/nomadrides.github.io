@@ -1,7 +1,7 @@
-div class="l-section--riders" id="riders"
+div class="p-home-riders" id="riders"
   div class="row"
     div class="small-12 columns text-center"
-      h2 Our Amazing Riders
+      h2 class="p-home-riders--title" Our Amazing Riders
   div class="row align-center"
     - data.riders.take(2).each do |_slug, rider|
       div class="small-12 medium-4 large-3 columns"
@@ -10,4 +10,4 @@ div class="l-section--riders" id="riders"
       = partial 'riders/join_us'
   div class="row"
     div class="small-12 columns text-center"
-      = link_to "Meet more riders", "/riders", class: "button fat"
+      = link_to "Meet more riders", "/riders", class: "button fat p-home-riders--join-button"

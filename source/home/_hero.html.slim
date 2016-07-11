@@ -1,4 +1,4 @@
-div class="l-hero"
+div class="p-home-hero"
   div class="top-bar"
     div class="top-bar-right"
       ul class="menu align-right"
@@ -7,17 +7,17 @@ div class="l-hero"
         li
           = link_to 'Blog', '/blog'
 
-  div class="row align-middle baseline"
+  div class="row align-middle p-home-baseline-container"
     div class="large-12 columns"
-      h1 = data.site.name
-      h2 class="show-for-medium" = data.site.baseline
-      p class="sub-baseline"
+      h1 class="p-home-site-name" = data.site.name
+      h2 class="p-home-baseline show-for-medium" = data.site.baseline
+      p class="p-home-baseline-sub"
         ' Trip planner platform for short-term digital workers
-        span class="label-coming-soon" SOON!
-      p = link_to "Discover the last rides", "/blog", class: "button ghost fat"
+        span class="label coming-soon" SOON!
+      p = link_to "Discover the last rides", "/blog", class: "button ghost fat p-home-discover-button"
 
   div class="row show-for-medium"
     div class="large-12 columns"
       p
-        = link_to "#pitch", class: "learn-more-link" do
+        = link_to "#pitch", class: "p-home-learn-more-link" do
           i class="fa fa-arrow-down"

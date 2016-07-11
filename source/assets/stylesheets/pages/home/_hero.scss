@@ -1,0 +1,73 @@
+.p-home-baseline-container {
+  height: 100%;
+
+  .columns {
+    padding-bottom: 10%;
+  }
+}
+
+.p-home-baseline {
+  margin-bottom: 0;
+}
+
+.p-home-baseline-sub {
+  color: $white;
+  margin-top: 0;
+  margin-bottom: rem-calc(50);
+  font-size: rem-calc(30);
+}
+
+.p-home-discover-button {
+  margin: 0;
+}
+
+.p-home-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background: $primary-color url(image-path("background.jpg")) 0% 50%;
+  text-align:center;
+
+  h1, h2, a {
+    color: $white;
+  }
+
+  .menu a {
+    margin: 0 rem-calc(10);
+  }
+
+  .top-bar {
+    background: none;
+
+    a, li, ul {
+      background: none;
+      font-weight: $font-weight-bold;
+    }
+  }
+
+  .top-bar-section li,
+  .top-bar-section li a,
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    color: $white;
+    background: none;
+    font-weight: $font-weight-bold;
+  }
+
+  .top-bar-section a {
+    font-weight: $font-weight-bold;
+  }
+}
+
+.p-home-learn-more-link {
+  margin-bottom: rem-calc(10);
+
+  i {
+    @include animation(bounce 3s infinite);
+
+    display: block;
+    font-size: rem-calc(40);
+    margin-left: rem-calc(-15);
+    text-decoration: none;
+  }
+}

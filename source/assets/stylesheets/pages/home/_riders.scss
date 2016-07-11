@@ -1,0 +1,23 @@
+.p-home-riders {
+  background-color: $grey-light;
+  margin-top: rem-calc(20);
+  padding: rem-calc(20) 0;
+}
+
+.p-home-riders--join-button {
+  margin-top: rem-calc(10);
+}
+
+.p-home-riders--title {
+  margin-bottom: rem-calc(20);
+}
+
+.p-home-site-name {
+  font-weight: $font-weight-bold;
+  letter-spacing: -1px;
+  text-shadow: 0 1px 0 rgba($black, 0.8);
+
+  @media #{breakpoint(medium up)} {
+    font-size: 6em;
+  }
+}

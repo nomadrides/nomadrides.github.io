@@ -49,7 +49,7 @@ Besides, working and living in the flat, we had many more activities:
 For sure, we also hang out a lot!
 For more details about Budapest, have a look at my [previous post](/blog/2016-02-17-budapest.html).
 
-{:.l-blog-image--centered}
+{:.c-blog-image--centered}
 ![LOffice Café](/assets/images/blog/articles/2016-04-10-startup-house/loffice-cafe.jpg)
 ![LOffice Coworking](/assets/images/blog/articles/2016-04-10-startup-house/loffice-coworking.jpg)
 
@@ -69,7 +69,7 @@ Some facts again:
 
 The concept is totally different. It looks more like a room sharing apartment than a startup retreat apartment but still for startupers.
 
-{:.l-blog-image--centered}
+{:.c-blog-image--centered}
 ![Living room](/assets/images/blog/articles/2016-04-10-startup-house/living-room.jpg)
 ![Coworking area](/assets/images/blog/articles/2016-04-10-startup-house/coworking-area.jpg)
 

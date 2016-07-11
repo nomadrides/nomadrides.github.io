@@ -1,5 +1,7 @@
 .inline-list {
-  @extend .no-bullet;
+  // no-bullet
+  margin-left: 0;
+  list-style: none;
 
   li {
     display: inline-block;

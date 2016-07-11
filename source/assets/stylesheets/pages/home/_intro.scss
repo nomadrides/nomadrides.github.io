@@ -1,0 +1,14 @@
+.p-home-intro {
+  background-color: $sand;
+  color: $black-light;
+
+  margin-bottom: rem-calc(40);
+  padding: rem-calc(30 0 20);
+
+  // from newsletter partial
+  .email {
+    background-color: $white;
+    color: $black-light;
+    border: 1px solid $white;
+  }
+}

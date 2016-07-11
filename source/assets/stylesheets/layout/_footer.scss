@@ -4,20 +4,22 @@
   margin-top: rem-calc(40);
   padding: rem-calc(40 0 30);
 
-  a {
-    color: $white;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
+  // from newsletter partial
   .button {
     background-color: $blue-dark;
   }
 
+  // from newsletter partial
   .email {
     background-color: $white;
     color: $black;
+  }
+}
+
+.l-footer--link {
+  color: $white;
+
+  &:hover {
+    text-decoration: underline;
   }
 }

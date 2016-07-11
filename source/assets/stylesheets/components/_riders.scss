@@ -1,0 +1,55 @@
+.c-rider {
+  @include thumbnail;
+  border: none;
+  margin-bottom: rem-calc(30);
+  background-color: $white-pure;
+}
+
+.c-rider-activity {
+  @extend %human;
+  color: $grey-dark;
+  text-align: center;
+}
+
+.c-rider-avatar {
+  border-radius: 0;
+}
+
+.c-rider-biography {
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 rem-calc(20);
+  background-color: rgba($white, 0.9);
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+}
+
+.c-rider-biography-container {
+  position: relative;
+
+  &:hover .c-rider-biography {
+    visibility: visible;
+  }
+}
+
+.c-rider-details {
+  padding: rem-calc(10);
+}
+
+.c-rider-name {
+  @extend %sidekick;
+  margin-bottom: 0;
+  color: $primary-color;
+  text-align: center;
+}
+

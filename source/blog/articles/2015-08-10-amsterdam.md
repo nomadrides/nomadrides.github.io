@@ -99,5 +99,5 @@ It looks like Dutch people love Satay sauce. You can find it in restaurants, sna
 
 I was editing a [documentary on our coworking space (FR only)](http://www.lesfilmsdesdeuxmains.com/2015/06/02/travailler-en-micro-osmose-le-financement-participatif/) from Lille. That was funny to see our usual coworkers on my laptop. It's like a part of [La Coroutine](https://www.flickr.com/photos/61299367@N05/) was there with us in Amsterdam. So we brought back a gift!
 
-{:.l-blog-image--centered}
+{:.c-blog-image--centered}
 ![Plant in La Coroutine](/assets/images/blog/articles/2015-08-10-amsterdam/la-coroutine-plant.jpg)

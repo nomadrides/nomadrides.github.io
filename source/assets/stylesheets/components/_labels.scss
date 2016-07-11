@@ -2,11 +2,10 @@
   letter-spacing: 2px;
   font-family: $header-font-family;
   font-weight: $font-weight-bold;
-}
 
-.label-coming-soon {
-  @include label;
-  @extend .label;
-  @extend .secondary;
-  border-radius: rem-calc(20);
+  &.coming-soon {
+    color: foreground($secondary-color);
+    background: $secondary-color;
+    border-radius: rem-calc(20);
+  }
 }
