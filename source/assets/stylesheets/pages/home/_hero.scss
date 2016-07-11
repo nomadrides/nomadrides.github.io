@@ -18,15 +18,16 @@
 }
 
 .p-home-discover-button {
-  margin-right: 0;
-  margin-bottom: 5%;
+  margin: 0;
 }
 
 .p-home-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   background: $primary-color url(image-path("background.jpg")) 0% 50%;
   text-align:center;
-  height: 100%;
-  position: relative;
 
   h1, h2, a {
     color: $white;
@@ -59,9 +60,7 @@
 }
 
 .p-home-learn-more-link {
-  position: absolute;
-  bottom: 3%;
-  left: 50%;
+  margin-bottom: rem-calc(10);
 
   i {
     @include animation(bounce 3s infinite);
