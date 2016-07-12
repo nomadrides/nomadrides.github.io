@@ -24,6 +24,7 @@ During my trip, I visited a lot of places just by walking. It would have been a 
 - Plenty of “straße”
 - & Ampelmann Shop (Yes, in Berlin there are custom traffic light men)
 
+{:.c-blog-image--centered}
 ![David Leuliette signature in Ampelmann Shop Berlin](/assets/images/blog/articles/2016-07-06-contentful-berlin/ampelmann-signature.jpg)<br>
 _A small dedicace on the wall because I’m famous_
 
@@ -96,6 +97,7 @@ Before leaving the team they offered me an amazing gift: the __goodies box__! Wh
 - A Tshirt
 - and …? and …? and …? Socks!
 
+{:.c-blog-image--centered}
 ![contentful goodies with T-shirt & Socks](/assets/images/blog/articles/2016-07-06-contentful-berlin/contentful-goodies.jpg)<br>
 _Tweet about the socks #contentsocks @contenful_
 
