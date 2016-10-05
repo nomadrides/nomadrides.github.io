@@ -14,8 +14,11 @@
     margin: rem-calc(30) 0;
   }
 
-  p, li {
+  p, li, a {
     font-size: rem-calc(25);
+  }
+
+  p {
     color: $black-light;
   }
 
