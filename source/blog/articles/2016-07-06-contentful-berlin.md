@@ -4,7 +4,7 @@ author: David
 page_title: "I visited / worked / lived in the HQ of Contentful for 2 days"
 title: "Berlin"
 description: "One day at Contentful"
-cover_picture: berlin.jpg
+cover_picture: trabant-auto.jpg
 banner_picture: tv-tower.jpg
 ---
 
