@@ -2,13 +2,13 @@
 date: 2016-10-05
 author: Cecile
 page_title: "The best keyboards and trackpads for nomads"
-title: "About keyboard and trackpad"
+title: "About keyboards and trackpads"
 description: "Comparison of the best keyboards and trackpads for nomads"
 cover_picture: keyboard.jpg
 banner_picture: writing-machine.jpg
 ---
 
-This article is not about travels themselves. It's about the tools we use on a daily basis while working remotely.
+This article is not about traveling. It's about the tools we use on a daily basis while working remotely.
 READMORE
 
 The master piece of most remote workers is the laptop. We spend a lot of hours every day looking down at our laptop screen. We can add accessories to our setup to enhance our experience and comfort. Today, I'll go through an overview of the best keyboards and trackpads that we can find.
@@ -22,8 +22,7 @@ Traveler requirements:
 - Small if not tiny
 - Lightweight
 
-These two points will lead us through all our choices when time comes to add stuff in our luggages.
-So goes the same with the following comparison.
+These two aspects will be the primary means of judging whether a device is nice to carry along during your travels or is better left at home.
 
 ## Apple users
 
