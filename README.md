@@ -8,7 +8,7 @@ Made with Foundation & Middleman.
 
 ## Credits
 
-[Nomad rides](http://nomadrides.com/) is maintained and funded by [Cecile Veneziani](http://cecilitse.org/).
+[Nomad rides](http://www.nomadrides.com/) is maintained and funded by [Cecile Veneziani](http://cecilitse.org/).
 
 ## License
 

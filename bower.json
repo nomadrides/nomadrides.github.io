@@ -5,7 +5,7 @@
     "Cecile Veneziani <contact@cecilitse.org>"
   ],
   "license": "MIT",
-  "homepage": "http://nomadrides.com/",
+  "homepage": "http://www.nomadrides.com/",
   "ignore": [
     "**/.*",
     "node_modules",
