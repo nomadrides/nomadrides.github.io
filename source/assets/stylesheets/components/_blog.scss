@@ -1,6 +1,8 @@
 .c-blog-authoring {
   @media #{breakpoint(medium up)} {
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 }
 

@@ -4,6 +4,15 @@
   margin-top: rem-calc(40);
   padding: rem-calc(40 0 30);
 
+  .button, .email {
+    @media #{breakpoint(small only)} {
+      width: 80%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
   // from newsletter partial
   .button {
     background-color: $blue-dark;
