@@ -4,14 +4,15 @@ author: David
 page_title: "I visited / worked / lived in the HQ of Contentful for 2 days"
 title: "Berlin"
 description: "One day at Contentful"
+summary: "Recently I was given the chance to visit the Contentful HQ in Berlin. Four days to explore the city and meet the team."
 cover_picture: trabant-auto.jpg
 banner_picture: tv-tower.jpg
 ---
 
-Guten Tag! it’s David!<br>
+Guten Tag! it’s David!
+
 Currently, I work as a [Front-end engineering consultant](http://www.davidl.fr/) in Lille, France. Recently I was given the chance to visit the [contentful HQ](https://www.contentful.com/about-us/) in Berlin.
 Four days to explore the city and meet the team. Plus an amazing mission: watch the match France vs Germany in incognito mode.
-READMORE
 
 ## Berlin — Capital of Germany
 

@@ -22,5 +22,6 @@ div class="row"
           ' —
           em class="c-blog-author"
             => article.data['author']
-          p class="c-blog-summary" = article.summary
+          div class="c-blog-summary"
+            = blog_article_summary_tag(article)
           = link_to 'Read more →', article, class: 'button-link'
