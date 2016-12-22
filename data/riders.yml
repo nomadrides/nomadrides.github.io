@@ -1,7 +1,7 @@
 # Order by appearance on the riders page
 claire:
   activity: Film maker
-  biography: She launched in 2009 an association dedicated to teaching the art of film making.
+  biography: In 2009, she launched an association dedicated to teaching the art of film making.
   image: claire.jpg
   image_alt: Claire Jeandroz, film maker
   name: Claire
@@ -37,7 +37,7 @@ francois:
 flexbox:
   activity: Front-end dev / Teacher
   biography: |
-    Traveller & Music lover, David explore the world & solve problems for people.   — move fast & get sh$t done!
+    Traveller & Music lover, David explores the world & solves problems for people.   — move fast & get sh$t done!
   image: david-leuliette.jpg
   image_alt: David aka flexbox on GitHub
   name: David
@@ -45,8 +45,8 @@ flexbox:
 cecile:
   activity: Rails Developer / Teacher
   biography: |
-    Cecile is visiting Europe while working remotely for her clients.
-    She decided to get on board folks in her trips!
+    Cecile loves traveling Europe while working remotely for her clients.
+    She decided to start taking people along on her trips!
   image: cecile.jpg
   image_alt: Cecile, remote working addict
   name: Cecile
