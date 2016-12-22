@@ -13,6 +13,13 @@ clement:
   image_alt: Clément, Le Wagon alumni
   name: Clément
   website: http://clemldy.com/
+lars:
+  activity: Designer / Web developer
+  biography: Designer turned programmer, Lars likes to make cool stuff.
+  image: lars.jpg
+  image_alt: Lars, Unless co-founder
+  name: Lars
+  website: http://unless.io/
 guillaume:
   activity: Digital arts
   biography: Backpacker, traveler, he also co-founded La Coroutine, coworking space in Lille, France.
@@ -27,6 +34,13 @@ david:
   image_alt: David, Le Wagon alumni
   name: David
   website: http://www.wetennis.fr/
+michele:
+  activity: Social scentist / Developer
+  biography: Social scientist turned programming geek. Co-founded Unless to create great products.
+  image: michele.jpg
+  image_alt: Michèle, Unless co-founder
+  name: Michèle
+  website: http://unless.io/
 francois:
   activity: Startup CTO
   biography: He co-founded Talkus, an embedded website chat tool connected to Slack.
@@ -34,6 +48,14 @@ francois:
   image_alt: François, Talkus co-founder
   name: François
   website: https://www.talkus.io/
+nicolas:
+  activity: Rails Developer / Teacher
+  biography: |
+    If you want to pique his interest, give him an opportunity to learn something new.
+  image: nicolas.jpg
+  image_alt: Nicolas, cat lover
+  name: Nicolas
+  website: http://twitter.com/n_filzi
 flexbox:
   activity: Front-end dev / Teacher
   biography: |
