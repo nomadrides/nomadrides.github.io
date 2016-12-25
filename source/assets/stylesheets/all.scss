@@ -44,6 +44,7 @@
 // Layout
 @import 'layout/banner';
 @import 'layout/footer';
+@import 'layout/join_us';
 @import 'layout/navbar';
 
 // Page
@@ -51,8 +52,9 @@
 @import 'pages/blog';
 @import 'pages/error';
 @import 'pages/home/hero';
-@import 'pages/home/intro';
+@import 'pages/home/how_it_works';
 @import 'pages/home/pitch';
 @import 'pages/home/riders';
+@import 'pages/home/stories';
 @import 'pages/riders';
 @import 'pages/style_guide';

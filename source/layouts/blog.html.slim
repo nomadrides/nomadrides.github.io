@@ -8,4 +8,5 @@
     div class="row align-center"
       div class="small-12 medium-10 columns"
         = yield
-  = partial 'layouts/blog/join_me'
+  - if blog_article_page?
+    = partial 'layouts/shared/join_us'

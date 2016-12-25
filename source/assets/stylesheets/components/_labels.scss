@@ -2,10 +2,4 @@
   letter-spacing: 2px;
   font-family: $header-font-family;
   font-weight: $font-weight-bold;
-
-  &.coming-soon {
-    color: black;
-    background: $secondary-color;
-    border-radius: rem-calc(20);
-  }
 }

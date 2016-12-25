@@ -1,0 +1,36 @@
+.l-join-us {
+  background-image: linear-gradient(-225deg, rgba(61,128,135,0.25) 0%, rgba(0,64,76,0.25) 50%), url(image-path("home/traveler-girl.jpg"));
+  background-size: cover;
+}
+
+.l-join-us-container {
+  min-height: 250px;
+  background-size: cover;
+  margin-bottom: rem-calc(10);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: $white;
+}
+
+.l-join-us-link {
+  @extend %sith;
+  margin-bottom: 0;
+
+  font-weight: $font-weight-bold;
+  color: $white;
+}
+
+.l-join-us-title {
+  @extend %maul;
+  font-weight: $font-weight-bold;
+}
+
+.l-join-us-subtitle {
+  // font-size: rem-calc(20);
+  @extend %human;
+  margin-bottom: rem-calc(20);
+}

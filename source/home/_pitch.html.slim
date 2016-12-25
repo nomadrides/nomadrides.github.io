@@ -1,28 +1,29 @@
 div class="p-home-pitch" id="pitch"
-  div class="row collapse p-home-content"
-    div class="small-12 medium-6 columns"
+  div class="row collapse p-home-content-container"
+    div class="small-12 medium-6 columns p-home-content"
       h2 Meet Remote Workers
       ul class="no-bullet"
         li
-          ' You
-          strong work remotely
+          ' You like
+          strong remote working
+          ', having the freedom to go wherever ou want.
         li
-          ' But you always work at the
+          ' But you always end up working at the
           strong same place
       ul class="no-bullet"
-        li While you could use this power to...
+        li You could use this power to...
         li
           strong
-            ' Meet
-          ' other fellows and
+            ' Travel
+          ' the world and
           strong
-            ' travel
-          ' the world together
+            ' meet like-minded
+          ' people who do the same.
+        li Don't you?
     div class="small-12 medium-6 columns"
-      = image_tag page_image_path('notebook.jpg'), alt: "Remote working in coffee shop", class: "image round"
-div class="p-home-pitch"
-  div class="row collapse p-home-content"
-    div class="small-12 medium-6 medium-order-2 columns"
+      div class="p-home-cover-picture work"
+  div class="row collapse p-home-content-container"
+    div class="small-12 medium-6 medium-order-2 columns p-home-content"
       h2 Travel Together
       p
         ' We want to offer you a place where you can
@@ -32,4 +33,4 @@ div class="p-home-pitch"
         li Enjoy your time
         li While still working
     div class="small-12 medium-6 medium-order-1 columns"
-      = image_tag page_image_path('travel.jpg'), alt: "Travel with remote workers", class: "image round"
+      div class="p-home-cover-picture travel"
