@@ -15,6 +15,16 @@
   }
 }
 
+.p-style-guide--buttons {
+  .button {
+    margin: rem-calc(10);
+  }
+
+  .ghost-container {
+    background-color: $blue;
+  }
+}
+
 .p-style-guide--colors {
   .color {
     height: rem-calc(80);

@@ -151,11 +151,26 @@ div class="p-default p-style-guide"
                 p $white-pure
       div id="buttons"
         h2 Buttons
-        span class="button primary" Primary
-        span class="button secondary" Secondary
+        div class="p-style-guide--buttons"
+          ul class="inline-list"
+            li
+              span class="button primary" primary
+            li
+              span class="button secondary" secondary
+            li class="ghost-container"
+              span class="button ghost" ghost
+            li
+              span class="button ghost-reverse" ghost-reverse
+          ul class="no-bullet"
+            li
+              span class="button fat" fat
+            li
+              = link_to 'button-link →', '#', class: 'button-link'
       div id="labels"
         h2 Labels
-        span class="label" default
+        ul class="inline-list"
+          li
+            span class="label" default
       div id="images"
         h2 Images
         div class="p-style-guide--images"
