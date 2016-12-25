@@ -1,0 +1,203 @@
+---
+layout: page
+page_title: Style Guide
+title: Style Guide
+description: A collection of reusable styles and components for Nomad Rides development.
+banner_picture: 'style-guide.jpg'
+---
+
+div class="p-default p-style-guide"
+  div class="row"
+    div class="small-12 small-push-12 medium-3 columns"
+      ul class="no-bullet p-style-guide--sidebar"
+        li = link_to "Frameworks", "#frameworks"
+        li
+          strong Base
+          ul class="no-bullet"
+            li = link_to "Typography", "#typography"
+            li = link_to "Colors", "#colors"
+            li = link_to "Buttons", "#buttons"
+            li = link_to "Labels", "#labels"
+            li = link_to "Images", "#images"
+            li = link_to "Animations", "#animations"
+        li
+          strong Components
+          ul class="no-bullet"
+            li = link_to "Riders", "#riders"
+    div class="small-12 small-pull-12 medium-9 columns"
+      div id="frameworks"
+        h2 Frameworks
+        p
+          ' Nomad Rides is based on
+          => link_to "ZURB Foundation", "http://foundation.zurb.com/sites/docs/"
+          ' framework.
+
+          ' We use their <strong>grid system</strong>, typography, buttons, forms and so on.
+          ' Please refer to their documentation for anything that is not specified in this guide.
+        p
+          ' It's also based on
+          = link_to "Typeplate", "http://typeplate.com/"
+          ',
+          => link_to "Compass", "http://compass-style.org/"
+          ' and
+          => link_to "Font Awesome", "http://fontawesome.io/"
+      / Base
+      div id="typography"
+        h2 Typography
+        p We use several fonts for different purposes:
+        ul
+          li Open Sans for <strong>forms</strong>
+          li Quattrocento for <strong>headers</strong>
+          li Fanwood Text for any other <strong>text</strong>
+        h3 id="forms" Forms
+        p We use Open Sans font for forms.
+        div class="row"
+          div class="small-12 medium-6 columns"
+            form
+              label
+                ' First Name
+                input type="text" name="first_name" placeholder="Jules"
+              label
+                ' Last Name
+                input type="text" name="last_name" placeholder="Vernes"
+              input type="submit" value="Submit" class="button"
+        h3 id="headers" Headers
+        p We use Quattrocento font for headers. We've defined up to 6 levels but we mainly use only the first 3 ones.
+        p class="emperor" Heading Level 1
+        p class="vader" Heading Level 2
+        p class="maul" Heading Level 3
+        p class="sith" Heading Level 4
+        p class="sidekick" Heading Level 5
+        p class="human" Heading Level 6
+
+        p You can also use a <code>span</code> tag with any of the following classes:
+        ul
+          li Heading 1 - <code>emperor</code>
+          li Heading 2 - <code>vader</code>
+          li Heading 3 - <code>maul</code>
+          li Heading 4 - <code>sith</code>
+          li Heading 5 - <code>sidekick</code>
+          li Heading 6 - <code>human</code>
+        p It will apply the heading style to the span.
+
+        h3 id="text" Text
+        p We use Fanwood Text font for any other text such as paragraphs, lists and so on.
+        div class="row"
+          div class="small-12 medium-6"
+            ul
+              li Unordered list
+              li With bullets
+          div class="small-12 medium-6"
+            ul class="no-bullet"
+              li Unordered list
+              li Without bullets
+          div class="small-12 medium-6"
+            ol
+              li Ordered list
+              li with numbers then
+          div class="small-12 medium-6"
+            dl
+              dt Definition list
+              dd With a description
+          div class="small-12 medium-6"
+            ul class="inline-list"
+              li Inlined list
+              li Without bullets
+        blockquote
+          ' [Blockquote] The point of the journey is not to arrive.
+          cite  Steven Frischling
+      div id="colors"
+        h2 Colors
+        div class="row p-style-guide--colors"
+          div class="small-6 medium-3 columns"
+            div class="card"
+              div class="card-divider color sand"
+              div class="card-section"
+                p $sand
+          div class="small-6 medium-3 columns"
+            div class="card"
+              div class="card-divider color blue"
+              div class="card-section"
+                p 1blue
+          div class="small-6 medium-3 columns"
+            div class="card"
+              div class="card-divider color blue-dark"
+              div class="card-section"
+                p $blue-dark
+          div class="small-6 medium-3 columns"
+            div class="card"
+              div class="card-divider color black-light"
+              div class="card-section"
+                p $black-light
+          div class="small-6 medium-3 columns"
+            div class="card"
+              div class="card-divider color black"
+              div class="card-section"
+                p $black
+          div class="small-6 medium-3 columns"
+            div class="card"
+              div class="card-divider color grey"
+              div class="card-section"
+                p $grey
+          div class="small-6 medium-3 columns"
+            div class="card"
+              div class="card-divider color white"
+              div class="card-section"
+                p $white
+          div class="small-6 medium-3 columns"
+            div class="card"
+              div class="card-divider color white-pure"
+              div class="card-section"
+                p $white-pure
+      div id="buttons"
+        h2 Buttons
+        span class="button primary" Primary
+        span class="button secondary" Secondary
+      div id="labels"
+        h2 Labels
+        span class="label" default
+        span class="label coming-soon" coming soon
+      div id="images"
+        h2 Images
+        div class="p-style-guide--images"
+          div class="row"
+            div class="small-12 medium-2 columns"
+              = image_tag "logo.jpg", class: "image"
+            div class="small-12 medium-10 columns"
+              p
+                strong Regular image
+              ul class="inline-list"
+                li Class name:
+                li
+                  code image
+          div class="row"
+            div class="small-12 medium-2 columns"
+              = image_tag "logo.jpg", class: "image round"
+            div class="small-12 medium-10 columns"
+              p
+                strong Rounded image
+              ul class="inline-list"
+                li Class names:
+                li
+                  code image
+                li
+                  code round
+      div id="animations"
+        h2 Animations
+        div class="p-style-guide--bounce"
+          div class="row"
+            div class="small-12 medium-2 columns"
+              = image_tag "logo.jpg", class: "bouncing"
+            div class="small-12 medium-10 columns"
+              p
+                strong Bouncing
+              ul class="inline-list"
+                li Animation name:
+                li
+                  code bounce
+      / Components
+      div id="riders"
+        h2 Riders
+        div class="row"
+          div class="small-12 medium-4 columns"
+            = partial 'riders/rider', locals: { rider: data.riders.first.last }

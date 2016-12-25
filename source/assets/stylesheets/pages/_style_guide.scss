@@ -1,0 +1,43 @@
+.p-style-guide {
+  .row .row {
+    margin-left: 0 !important;
+  }
+
+  .button, .label {
+    margin-right: rem-calc(10);
+  }
+}
+
+.p-style-guide--bounce {
+  .bouncing {
+    @include animation(bounce 3s infinite);
+    display: block;
+  }
+}
+
+.p-style-guide--colors {
+  .color {
+    height: rem-calc(80);
+  }
+
+  .black { background-color: $black; }
+  .black-light { background-color: $black-light; }
+  .blue { background-color: $blue; }
+  .blue-dark { background-color: $blue-dark; }
+  .grey { background-color: $grey; }
+  .sand { background-color: $sand; }
+  .white { background-color: $white; }
+  .white-pure { background-color: $white-pure; }
+}
+
+.p-style-guide--images {
+  img {
+    margin-bottom: rem-calc(20);
+  }
+}
+
+.p-style-guide--sidebar {
+  a {
+    color: $grey;
+  }
+}
