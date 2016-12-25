@@ -1,0 +1,15 @@
+div class="p-home-stories" id="stories"
+  div class="row"
+    div class="small-12 columns"
+      h2 Discover our stories
+  div class="row"
+    - blog_featured_articles.each_slice(2).with_index do |articles, line_index|
+      - articles.each_with_index do |article, index|
+        div class="small-12 medium-#{small_article_column?(line_index, index)  ? 4 : 8 } columns p-home-story"
+          div class="cover-picture" style="background-image: url('#{blog_image_path(article, (small_article_column?(line_index, index) ? 'cover_picture' : 'banner_picture'))}')"
+            = link_to article, class: 'story-link' do
+              = article.title
+    div class="small-12 medium-4 columns p-home-story"
+      div class="cover-picture" style="background-image: url('#{page_image_path('sofia.jpg')}')"
+        = link_to '/blog', class: 'story-link' do
+          = "All our stories"

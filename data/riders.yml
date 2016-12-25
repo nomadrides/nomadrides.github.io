@@ -14,6 +14,7 @@ clement:
   name: Clément
   website: http://clemldy.com/
 lars:
+  featured: true
   activity: Designer / Web developer
   biography: Designer turned programmer, Lars likes to make cool stuff.
   image: lars.jpg
@@ -21,6 +22,7 @@ lars:
   name: Lars
   website: http://unless.io/
 guillaume:
+  featured: true
   activity: Digital arts
   biography: Backpacker, traveler, he also co-founded La Coroutine, coworking space in Lille, France.
   image: guillaume.jpg
@@ -35,6 +37,7 @@ david:
   name: David
   website: http://www.wetennis.fr/
 michele:
+  featured: true
   activity: Social scentist / Developer
   biography: Social scientist turned programming geek. Co-founded Unless to create great products.
   image: michele.jpg

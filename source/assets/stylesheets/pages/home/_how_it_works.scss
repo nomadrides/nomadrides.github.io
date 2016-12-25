@@ -1,0 +1,48 @@
+.p-home-how {
+  padding-top: rem-calc(40);
+  padding-bottom: rem-calc(30);
+  text-align: center;
+
+  background-color: $white;
+
+  .title {
+    margin-bottom: rem-calc(20);
+  }
+}
+
+.p-home-how--steps {
+  display: flex;
+
+  @media #{breakpoint(small down)} {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media #{breakpoint(medium up)} {
+    flex-direction: flex-start;
+    justify-content: space-between;
+  }
+}
+
+.p-home-how--step {
+  color: $black-light;
+  margin: rem-calc(10);
+
+  @media #{breakpoint(medium up)} {
+    max-width: 25%;
+  }
+
+  i {
+    font-size: rem-calc(40);
+  }
+
+  p {
+    margin-top: rem-calc(10);
+    font-size: rem-calc(30);
+  }
+}
+
+.p-home-how--disclaimer {
+  padding: rem-calc(0 10);
+  margin-top: rem-calc(20);
+}

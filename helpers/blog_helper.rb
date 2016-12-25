@@ -11,6 +11,10 @@ module BlogHelper
     end
   end
 
+  def blog_featured_articles
+    page_articles.select { |article| article.data['featured'] }
+  end
+
   def blog_page_css_class_name
     blog_article_page? ? 'p-blog-article' : 'p-blog-index'
   end

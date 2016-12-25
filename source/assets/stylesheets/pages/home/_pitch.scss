@@ -1,11 +1,31 @@
-.p-home-content {
+.p-home-content-container {
+  padding: rem-calc(10 0);
+
   @media #{breakpoint(medium up)} {
     display: flex;
-    align-items: center;
+    align-items: stretch;
   }
+}
+
+.p-home-content {
+  padding: rem-calc(10 0);
 }
 
 .p-home-pitch {
   padding: rem-calc(40 0);
   text-align: center;
+}
+
+.p-home-cover-picture {
+  height: 100%;
+  margin: rem-calc(0 10);
+  border-radius: rem-calc(5);
+  background-size: cover;
+
+  @media #{breakpoint(small down)} {
+    min-height: 200px;
+  }
+
+  &.travel { background-image: url(image-path("home/travel.jpg")); }
+  &.work { background-image: url(image-path("home/notebook.jpg")); }
 }
