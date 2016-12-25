@@ -8,24 +8,24 @@ $global-flexbox:    true;
 // ------------------
 $header-font-family: $font-family-serif;
 
-$header-sizes: (
-  small: (
-    'h1': 24,
-    'h2': 20,
-    'h3': 19,
-    'h4': 18,
-    'h5': 17,
-    'h6': 16,
-  ),
-  medium: (
-    'h1': 3.4375rem,
-    'h2': 2.890625rem,
-    'h3': 2.109375rem,
-    'h4': 1.796875rem,
-    'h5': 1.40625rem,
-    'h6': 1.25rem,
-  ),
-);
+$header-styles: (
+   small: (
+    'h1': ('font-size': 24),
+    'h2': ('font-size': 20),
+    'h3': ('font-size': 19),
+    'h4': ('font-size': 18),
+    'h5': ('font-size': 17),
+    'h6': ('font-size': 16),
+   ),
+   medium: (
+    'h1': ('font-size': 54),
+    'h2': ('font-size': 46),
+    'h3': ('font-size': 34),
+    'h4': ('font-size': 26),
+    'h5': ('font-size': 23),
+    'h6': ('font-size': 20),
+   ),
+ );
 
 $anchor-color: $primary-color;
 $anchor-color-hover: scale-color($anchor-color, $lightness: 20%);

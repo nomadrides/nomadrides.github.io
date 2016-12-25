@@ -4,7 +4,7 @@
   font-weight: $font-weight-bold;
 
   &.coming-soon {
-    color: foreground($secondary-color);
+    color: black;
     background: $secondary-color;
     border-radius: rem-calc(20);
   }
