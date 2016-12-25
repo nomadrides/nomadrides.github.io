@@ -2,26 +2,25 @@
 
 // 1. Global
 // ---------
+$sand: #F8DFB6;
 $black: #111111;
 $black-light: #384C46;
 $white: #f5f5f5;
 $white-pure: #fff;
-$white-light: #F5DDBB;
-$grey: #eee;
-$grey-light: scale-color($grey, $lightness: 60%);
-$grey-dark: scale-color($grey, $lightness: -60%);
+$grey: #5f5f5f;
 $blue: #3D8087;
 $blue-dark: #00404C;
-$green: #172C28;
-$green-light: #305152;
-$sand: #F8DFB6;
+
+// Given by palette but not used (yet)
+// $green: #172C28;
+// $green-light: #305152;
 
 $primary-color:   $blue;
-$secondary-color: $white-light;
+$secondary-color: $sand;
 
 $foundation-palette: (
   primary: $blue,
-  secondary: $white-light,
+  secondary: $sand,
   success: #3adb76, // not used
   warning: #ffae00, // not used
   alert: #cc4b37,   // not used
