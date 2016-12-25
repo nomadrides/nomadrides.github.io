@@ -33,6 +33,8 @@ $anchor-color-hover: scale-color($anchor-color, $lightness: 20%);
 // 19. Forms
 // ---------
 $input-font-family: $font-family-sans-serif-real;
+$input-background: $white-pure;
+$input-background-focus: $white-pure;
 
 // 22. Menu
 // --------

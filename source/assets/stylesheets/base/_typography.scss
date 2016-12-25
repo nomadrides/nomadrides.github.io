@@ -5,9 +5,3 @@ input {
 p, li {
   font-size: $paragrah-font-size;
 }
-
-@include breakpoint(small) {
-  h4 {
-    font-size: rem-calc(25);
-  }
-}

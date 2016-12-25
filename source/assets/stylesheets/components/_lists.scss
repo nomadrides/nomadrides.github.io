@@ -5,6 +5,8 @@
 
   li {
     display: inline-block;
-    margin-left: rem-calc(30);
+
+    // not on the first one ;)
+    &:nth-child(n+2) { margin-left: rem-calc(30); }
   }
 }
