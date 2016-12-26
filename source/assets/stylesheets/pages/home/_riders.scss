@@ -17,6 +17,10 @@
   letter-spacing: -1px;
   text-shadow: 0 1px 0 rgba($black, 0.8);
 
+  @media #{breakpoint(small down)} {
+    font-size: 3em;
+  }
+
   @media #{breakpoint(medium up)} {
     font-size: 6em;
   }

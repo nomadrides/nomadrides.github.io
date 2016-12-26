@@ -4,26 +4,9 @@
 
 // styling the generated markdown
 .p-blog-article {
-  h2 {
-    font-size: 2.5em;
-    margin: rem-calc(40) 0;
-  }
-
-  h3 {
-    font-size: 2em;
-    margin: rem-calc(30) 0;
-  }
-
-  @include breakpoint(small) {
-    h4 {
-      font-size: rem-calc(25);
-    }
-  }
-
-
-  p, li, a {
-    font-size: rem-calc(25);
-  }
+  h2 { margin-top: rem-calc(40); }
+  h3 { margin-top: rem-calc(20); }
+  h4 { margin-top: rem-calc(10); }
 
   p {
     color: $black-light;
@@ -36,5 +19,11 @@
 
   .p-blog-stories-link {
     font-size: 1em;
+  }
+
+  @include breakpoint(medium up) {
+    p, li, a {
+      font-size: rem-calc(25);
+    }
   }
 }
