@@ -24,6 +24,7 @@ div class="p-default p-style-guide"
           strong Components
           ul class="no-bullet"
             li = link_to "Riders", "#riders"
+            li = link_to "Stories", "#stories"
     div class="small-12 small-pull-12 medium-9 columns"
       div id="frameworks"
         h2 Frameworks
@@ -215,3 +216,10 @@ div class="p-default p-style-guide"
         div class="row"
           div class="small-12 medium-4 columns"
             = partial 'riders/rider', locals: { rider: data.riders.first.last }
+      div id="stories"
+        h2 Stories
+        div class="row medium-collapse"
+          div class="small-12 medium-5 columns"
+            = partial 'stories/story', locals: { article: page_articles.first, cover_type: 'cover_picture' }
+          div class="small-12 medium-9 columns"
+            = partial 'stories/story', locals: { article: page_articles.first, cover_type: 'banner_picture' }
