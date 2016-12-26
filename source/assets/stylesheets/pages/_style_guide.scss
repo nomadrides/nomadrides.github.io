@@ -9,6 +9,8 @@
 }
 
 .p-style-guide--bounce {
+  margin-bottom: rem-calc(20);
+
   .bouncing {
     @include animation(bounce 3s infinite);
     display: block;
@@ -38,6 +40,14 @@
   .sand { background-color: $sand; }
   .white { background-color: $white; }
   .white-pure { background-color: $white-pure; }
+}
+
+.p-style-guide--entry {
+  margin-top: rem-calc(10);
+}
+
+h4.p-style-guide--entry {
+  font-weight: $font-weight-bold;
 }
 
 .p-style-guide--images {
