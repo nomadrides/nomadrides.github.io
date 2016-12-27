@@ -32,7 +32,7 @@ end
 configure :build do
   activate :asset_hash
   activate :minify_css
-  activate :minify_html
+  activate :minify_html, remove_input_attributes: false
   activate :minify_javascript
 
   activate :robots,   rules:    [{ user_agent: '*', allow: %w(/) }],
