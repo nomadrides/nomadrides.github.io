@@ -15,7 +15,7 @@ Now that I've made a [comparison of the best keyboards and trackpads](/blog/2016
 
 ## The keyboard
 
-I've chosen the [Microsoft Universal Foldable Keyboard](https://www.microsoft.com/accessories/en-us/products/keyboards/all-in-one-media-keyboard/n9z-00001) because it's **foldable** and the most **lightweight** keyboard available with only 180g for 45-90€.
+I've chosen the [Microsoft Universal Foldable Keyboard](https://www.microsoft.com/accessories/en-us/products/keyboards/universal-foldable-keyboard/gu5-00001) because it's **foldable** and the most **lightweight** keyboard available with only 180g for 45-90€.
 
 I've been using it for few weeks and for now, I can tell that keys are really soft, thus the touch experience is quite nice.
 
