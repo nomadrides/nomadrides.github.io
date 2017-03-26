@@ -9,16 +9,15 @@
 
 // Vendors
 @import 'compass';
-@import 'font-awesome';
 
-@import 'vendors-settings/foundation';
-@import 'foundation-sites';
+@import "vendors-settings/foundation";
+@import "foundation-sites/scss/foundation";
 @include foundation-everything(true);
 
 @import 'vendors-settings/typeplate';
-@import 'typeplate-starter-kit/scss/typeplate-vars';
-@import 'typeplate-starter-kit/scss/typeplate-mixins';
-@import 'typeplate-starter-kit/scss/typeplate-helpers';
+@import 'typeplate-starter-kit/dist/scss/typeplate-vars';
+@import 'typeplate-starter-kit/dist/scss/typeplate-mixins';
+@import 'typeplate-starter-kit/dist/scss/typeplate-helpers';
 
 // Generic (ground zero styles / reset / normalize)
 // ... nothing ...
