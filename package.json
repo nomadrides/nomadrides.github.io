@@ -1,0 +1,9 @@
+{
+  "name": "nomadrides",
+  "version": "0.1.0",
+  "description": "Yarn package for Nomad Rides website",
+  "main": "all.js",
+  "repository": "git@github.com:nomadrides/nomadrides.github.io.git",
+  "author": "Cecile Veneziani <contact@cecilitse.org>",
+  "license": "CCommons BY-SA"
+}
