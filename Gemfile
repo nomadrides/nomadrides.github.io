@@ -23,4 +23,3 @@ gem 'slim',                     '~> 3.0.6'
 
 # Assets
 gem 'compass'
-# gem 'font-awesome-middleman',   '~> 4.5.0' # FIXME
