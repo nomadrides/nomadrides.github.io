@@ -1,12 +1,10 @@
-# If you do not have OpenSSL installed, update
-# the following line to use "http://" instead
 source 'https://rubygems.org'
 
 gem 'middleman',                '~> 4.2.0'
 gem 'middleman-autoprefixer',   '~> 2.7.1'
-gem 'middleman-blog',           '~> 4.0.1' # 4.0.1
+gem 'middleman-blog',           '~> 4.0.1'
 gem 'middleman-compass',        '~> 4.0.1'
-gem 'middleman-livereload',     '~> 3.4.6' # 4.0.1
+gem 'middleman-livereload',     '~> 3.4.6'
 gem 'middleman-minify-html',    '~> 3.4.1'
 gem 'middleman-protect-emails', '~> 0.4.0'
 gem 'middleman-robots',         '~> 1.2.3'
