@@ -36,9 +36,13 @@ configure :build do
   activate :minify_html, remove_input_attributes: false
   activate :minify_javascript
 
-  activate :robots,   rules:    [{ user_agent: '*', allow: %w(/) }],
-                      sitemap:  "#{data.site.url}/sitemap.xml"
-  activate :sitemap,  hostname: data.site.url
+  activate :robots, rules:    [{ user_agent: '*', allow: %w(/) }],
+                    sitemap:  "#{@app.data.site.url}/sitemap.xml"
+
+  activate :sitemap, hostname: @app.data.site.url
+
+  # # "Ignore" JS so webpack has full control.
+  ignore { |path| path =~ /\/(.*)\.js$/ && $1 != 'all.bundle' }
 end
 
 activate :deploy do |deploy|
