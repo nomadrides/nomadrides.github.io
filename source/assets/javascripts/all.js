@@ -1,11 +1,10 @@
-//= require "jquery/dist/jquery"
+// Vendor
+import { jQuery, $ } from 'jquery';
+window.$ = $;
+window.jQuery = jQuery;
 
-//= require "foundation-sites/js/foundation.core"
-//= require "foundation-sites/js/foundation.util.keyboard"
-//= require "foundation-sites/js/foundation.util.mediaQuery"
-//= require "foundation-sites/js/foundation.util.nest"
-//= require "foundation-sites/js/foundation.dropdownMenu"
-//= require "foundation-sites/js/foundation.responsiveToggle"
+import 'foundation-sites';
 
-//= require "components/_foundation"
-//= require "components/_smooth_scroll"
+// Components
+import './components/foundation';
+import './components/smooth_scroll';
