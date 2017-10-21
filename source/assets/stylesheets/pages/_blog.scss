@@ -8,6 +8,14 @@
   h3 { margin-top: rem-calc(20); }
   h4 { margin-top: rem-calc(10); }
 
+  p.c-blog-image--centered + h2 {
+    margin-top: 3.5rem;
+  }
+
+  p.c-blog-image--centered + h3 {
+    margin-top: 3.5rem;
+  }
+
   p {
     color: $black-light;
   }
