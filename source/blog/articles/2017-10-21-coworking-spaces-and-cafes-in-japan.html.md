@@ -1,5 +1,4 @@
 ---
-featured: false
 date: 2017-10-21
 author: Cecile
 page_title: "Where to work from while travelling through Japan"
