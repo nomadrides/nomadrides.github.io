@@ -152,7 +152,7 @@ We didn't really expect to find a coworking space in Himeji. Well, yes, as touri
 
   <div class="small-12 medium-6 columns">
     <ul>
-      <li>Website: <a href="https://www.facebook.com/othellospcr/">https://www.facebook.com/othellospcr/</a></li>
+      <li>Website: <a href="www.honmachi-2chome.jp/english/shop/31.html">www.honmachi-2chome.jp/english/shop/31.html</a></li>
       <li>Good internet connection</li>
       <li>Amazing iced tea & pastries</li>
     </ul>
