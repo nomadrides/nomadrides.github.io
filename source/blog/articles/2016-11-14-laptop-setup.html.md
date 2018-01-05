@@ -4,12 +4,14 @@ author: Cecile
 page_title: "Nomad laptop setup"
 title: "My remote working setup"
 description: "Collection of my laptop devices for remote working"
+summary: "This is it! I've assembled my new laptop setup."
 cover_picture: laptop-setup-and-tea.jpg
 banner_picture: full-laptop-setup.jpg
 ---
 
+> **UPDATE 05/01/18** - I have a brand **new backpack**, a **new speaker** and icing on the cake, a **scanner** (no kidding)!
+
 This is it! I've assembled my new laptop setup.
-READMORE
 
 Now that I've made a [comparison of the best keyboards and trackpads](/blog/2016-10-05-keyboards-and-trackpads-for-nomads.html) for people that travel, it was time to decide which devices will complete my setup.
 
@@ -58,16 +60,18 @@ What can I say? It's the most impressive part of my setup. **Ultra light** with 
 
 <div class="row c-blog-images">
   <div class="small-12 medium-6 columns text-center">
-    <a href="http://www.ultimateears.com/en-us/store/ueboom2">
-      <img src="/assets/images/blog/articles/2016-11-14-laptop-setup/ue-boom-speaker.jpg" alt="UE Boom speaker" class="c-blog-image--centered">
+    <a href="www.jbl.com/bluetooth-speakers/JBL+CLIP+2.html">
+      <img src="/assets/images/blog/articles/2016-11-14-laptop-setup/jbl-clip-2-speaker.jpg" alt="JBL Clip 2 speaker" class="c-blog-image--centered">
     </a>
   </div>
 
   <div class="small-12 medium-6 columns">
-    <p>Whenever I can, I take my <a href="http://www.ultimateears.com/en-us/store/ueboom2">UE Boom speaker</a> along with me. It's always nice to have some music while working.</p>
-    <p>This speaker is a bit expensive (150€) and it might not be the best wireless speaker that is on the market. Thing is that at home, we have 2 of them so we can plug them together to have stereo.</p>
+    <p>Whenever I can, I take my <a href="www.jbl.com/bluetooth-speakers/JBL+CLIP+2.html">JBL Clip 2 speaker</a> along with me. It's always nice to have some music while working.</p>
+    <p>This speaker is quite affordable (50€) but for this price, it doesn't provide such an amazing sound. Nevertheless it's still good enough while travelling.</p>
   </div>
 </div>
+
+> **UPDATE 05/01/18** - I used to travel with a [UE Boom speaker](http://www.ultimateears.com/en-us/store/ueboom2) but it's really too heavy. So, I keep this one at home.
 
 ### Notebook
 
@@ -84,19 +88,49 @@ What can I say? It's the most impressive part of my setup. **Ultra light** with 
   </div>
 </div>
 
+### Scanner
+
+No, that's not a joke. I really bought a portable scanner, the [Fujitsu ScanSnap IX100](http://www.fujitsu.com/uk/products/computing/peripheral/scanners/scansnap/ix100/). As freelancer, every month, I have to scan all my receipts.
+
+{:.c-blog-image--centered}
+![Scanner Fujitsu ScanSnap IX100](/assets/images/blog/articles/2016-11-14-laptop-setup/scanner-fujitsu-scan-snap-ix100.jpg)
+
+I used to take pictures of my receipts with my smartphone but it took ages and the quality wasn't that good. Then I used the scanner from the coworking space where I usually work. But what happens when I travel and I do travel quite often...
+
+This comes with a price (250€) but it's really worth it. It saves me so much time. I'm in love with this little device.
+
 ## Lugagge
 
 Now let's talk about the luggage that carries everything.
 
 ### Backpack
 
-For travels from **few days up to one week**, I just use a backpack. It's perfect, there's enough space for my laptop setup, a light towel and few clothes.
+> **UPDATE 05/01/18** - I used to switch between a small backpack and a cyclotourism backpack. It turned out that it was not optimal nor comfortable at all. So I bought a new one.
 
-So nothing really fancy here. No [Tortuga backpack](http://www.tortugabackpacks.com/products/tortuga-air-carry-on-backpack). I just recycled a cyclotourism backpack.
+For travels from **a few days up to one week**, I just use a backpack. It's perfect, there's enough space for my laptop setup, a light towel and a few clothes.
+
+Using a random backpack, I started to feel a pain in my back during travels. So after one year with my new setup, it was time to upgrade this part too. I took the quite famous [Bobby backpack](https://www.xd-design.com/bobby-anti-theft-backpack-grey).
+
+{:.c-blog-image--centered}
+![Bobby backpack](/assets/images/blog/articles/2016-11-14-laptop-setup/bobby-backpack.jpg)
+
+If you don't know it yet, it's an **anti-theft** backpack but I haven't bought it for this purpose. I bought it because it's supposed to **optimise weight balance** by 20% and it works well.
+
+<div class="row c-blog-images">
+  <div class="small-12 medium-6 columns text-center">
+    <a href="https://www.xd-design.com/bobby-anti-theft-backpack-grey">
+      <img src="/assets/images/blog/articles/2016-11-14-laptop-setup/bobby-backpack-side.jpg" alt="Bobby backpakc from XD Design" class="c-blog-image--centered">
+    </a>
+  </div>
+
+  <div class="small-12 medium-6 columns">
+    <p>On a side note, I think the <a href="https://www.xd-design.com/bobby-backpack/bobby-compact-diver-blue">Bobby Compact</a> version is a better fit for smaller people like me, even thought I've chosen the big one. It like to put a lot of stuff inside my backpack!</p>
+  </div>
+</div>
 
 ### New suitcase
 
-For longer travels, **anything longer than few weeks** - I generally don't travel for long periods of time - I use a suitcase in combination with a smaller backpack.
+For longer travels, **anything longer than a few weeks** - I generally don't travel for long periods of time - I use a suitcase in combination with my backpack.
 
 You won't believe me, for more than 8 months, I traveled with a broken suitcase. The rear wheels were out of order so I had to carry my suitcase backwards. Turns out it's way more heavy this way! So I finally decided to end this torment. Here is my new suitcase!
 
