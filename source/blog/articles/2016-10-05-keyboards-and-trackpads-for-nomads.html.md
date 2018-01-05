@@ -4,12 +4,14 @@ author: Cecile
 page_title: "The best keyboards and trackpads for nomads"
 title: "About keyboards and trackpads"
 description: "Comparison of the best keyboards and trackpads for nomads"
+summary: "This article is not about traveling. It's about the tools we use on a daily basis while working remotely."
 cover_picture: keyboard.jpg
 banner_picture: writing-machine.jpg
 ---
 
+> **UPDATE 05/01/18** - In 2017, all the trackpads suddenly disappeared except the Apple Magic Trackpad . This is certainly due to [patents owned by Apple](http://www.patentlyapple.com/patently-apple/2017/01/apple-wins-four-design-patents-for-magic-trackpad-2.html).
+
 This article is not about traveling. It's about the tools we use on a daily basis while working remotely.
-READMORE
 
 The master piece of most remote workers is the laptop. We spend a lot of hours every day looking down at our laptop screen. We can add accessories to our setup to enhance our experience and comfort. Today, I'll go through an overview of the best keyboards and trackpads that we can find.
 
@@ -116,6 +118,10 @@ These 3 keyboards are amazing. Regarding weight, the Microsoft Universal Foldabl
 My comparison includes 2 foldable keyboards. I really like the idea that when you don't use your device because you're just traveling, it takes far less place in your backpack.
 
 ## Trackpad
+
+> **UPDATE 05/01/18** - In 2017, we've seen all the trackpads suddenly disappearing (except the one from Apple). This is certainly due to some [patents owned by Apple](http://www.patentlyapple.com/patently-apple/2017/01/apple-wins-four-design-patents-for-magic-trackpad-2.html).
+>
+> So unfortunately, the Logitech T650 and HP Z6500 are **no longer available** anywhere.
 
 ### Logitech T650
 
