@@ -2,7 +2,7 @@
 date: 2017-10-21
 author: Cecile
 page_title: "Where to work from while travelling through Japan"
-title: "Coworking spaces and Cafés in Japan"
+title: "Coworkings and Cafés in Japan"
 description: "From Tokyo to Okinawa, find nice coworking spaces and cafés to work from."
 cover_picture: cafe-soeur.jpg
 banner_picture: kyoto-torii.jpg
