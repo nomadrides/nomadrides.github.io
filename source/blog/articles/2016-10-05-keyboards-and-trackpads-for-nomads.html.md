@@ -277,14 +277,14 @@ This article wouldn't have been complete without talking about stands. For the m
 
 <div class="row c-blog-images">
   <div class="small-12 medium-6 columns">
-    <a href="http://greenupgrader.com/7603/diy-cardboard-laptop-stand/">
+    <a href="http://www.musicradar.com/news/tech/how-to-make-a-diy-cardboard-laptop-stand-184047">
       <img src="/assets/images/blog/articles/2016-10-05-keyboards-and-trackpads-for-nomads/laptop-stand-diy.jpg" alt="DIY laptop stand" class="c-blog-image--centered">
     </a>
   </div>
   <div class="small-12 medium-6 columns">
     <p>This is definitely the cheapest stand you can find. The idea is to create a laptop stand using cardboard.</p>
     <p>This solution is perfect if you have a low budget or if you don't know yet if a stand could fit your needs.</p>
-    <a href="http://greenupgrader.com/7603/diy-cardboard-laptop-stand/">Have a look at the tutorial</a>
+    <a href="http://www.musicradar.com/news/tech/how-to-make-a-diy-cardboard-laptop-stand-184047">Have a look at the tutorial</a>
   </div>
 </div>
 
