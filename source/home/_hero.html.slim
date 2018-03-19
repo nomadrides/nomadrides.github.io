@@ -16,5 +16,5 @@ div class="p-home-hero"
   div class="row show-for-medium"
     div class="large-12 columns"
       p
-        = link_to "#pitch", class: "p-home-learn-more-link" do
+        = link_to (data.rides.current ? "#current-ride" : "#pitch"), class: "p-home-learn-more-link" do
           i class="fa fa-arrow-down"

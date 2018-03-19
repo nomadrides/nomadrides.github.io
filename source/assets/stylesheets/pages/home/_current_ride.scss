@@ -1,0 +1,32 @@
+.p-home-current-ride {
+  padding: rem-calc(120 0 80 0);
+
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  .ride {
+    min-height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: $white-pure;
+    background-image: linear-gradient(-225deg, rgba(56,76,70,0.45) 0%, rgba(0,64,76,0.45) 50%), url(image-path("home/current-ride.jpg"));
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+  }
+
+  .ride-details {
+    margin-bottom: rem-calc(15);
+  }
+
+  .ride-period {
+    letter-spacing: 2px;
+  }
+}

@@ -1,0 +1,13 @@
+- if data.rides.current
+  div class="p-home-current-ride" id="current-ride"
+    div class="ride"
+      h2
+        | We're currently in
+        strong< = data.rides.current.location
+        | !
+      div class="ride-details"
+        p class="sith ride-period"
+          = data.rides.current.period
+        p class="maul"
+          | 🙌 🙌 🙌
+      = mail_to data.site.mail, "Let's meet!", class: "button ghost"
