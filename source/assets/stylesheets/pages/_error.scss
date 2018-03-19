@@ -1,6 +1,7 @@
 .x404 {
   background: $primary-color image-url("lost-in-lake-louise-canada.jpg");
   background-size: cover;
+  background-position: center top;
 }
 
 .p-error-background-overlay {
@@ -22,7 +23,7 @@
 
 .p-error-content {
   color: $white;
-  height: 100%;
+  min-height: 100vh;
   position: relative;
   z-index: 20;
 
