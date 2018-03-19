@@ -9,6 +9,7 @@
   }
 
   &.ghost {
+    font-weight: $font-weight-bold;
     border: 3px solid $white-pure;
     background-color: transparent;
     letter-spacing: 5px;
