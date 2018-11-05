@@ -58,7 +58,7 @@ GEM
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.0)
-    ffi (1.9.18)
+    ffi (1.9.25)
     haml (4.0.7)
       tilt
     hamster (3.0.0)
@@ -182,4 +182,4 @@ DEPENDENCIES
   slim (~> 3.0.6)
 
 BUNDLED WITH
-   1.16.1
+   1.17.1
