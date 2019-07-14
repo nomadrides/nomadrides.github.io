@@ -21,9 +21,12 @@
 
 .c-blog-image--centered {
   text-align: center;
+  margin-bottom: rem-calc(10);
 
-  @include breakpoint(small) {
-    margin-bottom: rem-calc(20);
+  @include breakpoint(medium down) {
+    img:nth-child(2n) {
+      margin-top: rem-calc(10);
+    }
   }
 }
 
