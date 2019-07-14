@@ -1,11 +1,4 @@
 # Order by appearance on the riders page
-guicabanel:
-  activity: Web developer / Teacher
-  biography: Engineer in sustainable development for construction turned into a web developer and teacher.
-  image: guicabanel.jpg
-  image_alt: Guillaume, co-founder of Kuartz
-  name: Guillaume
-  website: https://twitter.com/guicabanel
 claire:
   activity: Film maker
   biography: In 2009, she launched an association dedicated to teaching the art of film making.
@@ -13,13 +6,13 @@ claire:
   image_alt: Claire Jeandroz, film maker
   name: Claire
   website: http://lesfilmsdesdeuxmains.com/
-clement:
-  activity: Web developer
-  biography: He decided to learn Ruby on Rails and now he is passionated about web development.
-  image: clement.jpg
-  image_alt: Clément, Le Wagon alumni
-  name: Clément
-  website: http://clemldy.com/
+guicabanel:
+  activity: Web developer / Teacher
+  biography: Engineer in sustainable development for construction turned into a web developer and teacher.
+  image: guicabanel.jpg
+  image_alt: Guillaume, co-founder of Kuartz
+  name: Guillaume
+  website: https://twitter.com/guicabanel
 lars:
   featured: true
   activity: Designer / Web developer
@@ -36,13 +29,13 @@ guillaume:
   image_alt: Guillaume, urban brewer
   name: Guillaume
   website: http://www.singe-savant.com/
-david:
-  activity: Web developer
-  biography: Learned how to code & launched a web app that helps judges to manage tennis tournaments.
-  image: david.jpg
-  image_alt: David, Le Wagon alumni
-  name: David
-  website: https://twitter.com/davidgeismar
+francois:
+  activity: Startup CTO
+  biography: He co-founded Talkus, an embedded website chat tool connected to Slack.
+  image: francois.jpg
+  image_alt: François, Talkus co-founder
+  name: François
+  website: https://www.talkus.io/
 michele:
   featured: true
   activity: Social scentist / Developer
@@ -51,13 +44,13 @@ michele:
   image_alt: Michèle
   name: Michèle
   website: https://twitter.com/MicheledeBruyn
-francois:
-  activity: Startup CTO
-  biography: He co-founded Talkus, an embedded website chat tool connected to Slack.
-  image: francois.jpg
-  image_alt: François, Talkus co-founder
-  name: François
-  website: https://www.talkus.io/
+david:
+  activity: Web developer
+  biography: Learned how to code & launched a web app that helps judges to manage tennis tournaments.
+  image: david.jpg
+  image_alt: David, Le Wagon alumni
+  name: David
+  website: https://twitter.com/davidgeismar
 nicolas:
   activity: Rails Developer / Teacher
   biography: |
@@ -74,6 +67,13 @@ flexbox:
   image_alt: David aka flexbox on GitHub
   name: David
   website: http://davidl.fr
+clement:
+  activity: Web developer
+  biography: He decided to learn Ruby on Rails and now he is passionated about web development.
+  image: clement.jpg
+  image_alt: Clément, Le Wagon alumni
+  name: Clément
+  website: http://clemldy.com/
 cecile:
   activity: Rails Developer / Teacher
   biography: |
