@@ -1,0 +1,12 @@
+// Extracted Drop Capitals from Typeplate Starter Kit
+//
+// Website: http://typeplate.com/#drop-caps
+// Source: https://github.com/typeplate/starter-kit/blob/328f4679c9acbacc470f8c59247dcae7b8df2c61/scss/_typeplate-mixins.scss#L180-L209
+.typl8-drop-cap:first-letter {
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0; // original padding of 0 20px
+  font-size: 4em;
+  line-height: 1;
+  text-indent: 0;
+}

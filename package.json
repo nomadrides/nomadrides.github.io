@@ -13,7 +13,6 @@
     "foundation-sites": "6.3.1",
     "jquery": "^3.4.0",
     "script-loader": "^0.7.0",
-    "typeplate-starter-kit": "^3.0.3",
     "webpack": "^2.7.0"
   }
 }
