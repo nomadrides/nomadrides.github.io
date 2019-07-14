@@ -23,27 +23,27 @@ lars:
   website: http://unless.io/
 guillaume:
   featured: true
-  activity: Digital arts
-  biography: Backpacker, traveler, he also co-founded La Coroutine, coworking space in Lille, France.
+  activity: Brewer
+  biography: Backpacker, traveler, he also co-founded Le Singe Savant, a micro-brewery in Lille, France.
   image: guillaume.jpg
-  image_alt: Guillaume, digital arts
+  image_alt: Guillaume, urban brewer
   name: Guillaume
-  website: http://lacoroutine.org/en.html
+  website: http://www.singe-savant.com/
 david:
   activity: Web developer
   biography: Learned how to code & launched a web app that helps judges to manage tennis tournaments.
   image: david.jpg
   image_alt: David, Le Wagon alumni
   name: David
-  website: http://www.wetennis.fr/
+  website: https://twitter.com/davidgeismar
 michele:
   featured: true
   activity: Social scentist / Developer
-  biography: Social scientist turned programming geek. Co-founded Unless to create great products.
+  biography: Social scientist turned programming geek.
   image: michele.jpg
-  image_alt: Michèle, Unless co-founder
+  image_alt: Michèle
   name: Michèle
-  website: http://unless.io/
+  website: https://twitter.com/MicheledeBruyn
 francois:
   activity: Startup CTO
   biography: He co-founded Talkus, an embedded website chat tool connected to Slack.
