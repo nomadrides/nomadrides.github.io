@@ -4,7 +4,7 @@ date: 2020-02-08
 author: Cecile
 page_title: "Two weeks in Barcelona, visits, work and a client retreat"
 title: "Barcelona (2 weeks)"
-description: "Frow the super warm Marrakesh to the windy Essaouira, discover the journey of Cecile, Nicolas and Guillaume in Morocco."
+description: "Cecile and Nicolas spent two weeks in Barcelona, during the Merce. Find out how it was."
 cover_picture: triumphal-arch.jpg
 banner_picture: barcelona-arc-of-triumph.jpg
 ---
