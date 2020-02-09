@@ -66,7 +66,7 @@ Note that on the other side of the parking, you'll find [Parking Pizza](http://w
 
 ## Barri Gòtic
 
-For sure, the Gothic quarter is one of the most amazing neighborhoods of Barcelona. Its architecture is beautiful, its small streets are so nice, the night life is...    overwhelming. Yes, it's a great neighborhood to visit or hang out but it's not the perfect quarter to live. Be warned.
+For sure, the Gothic neighborhood is one of the most amazing in Barcelona. Its architecture is beautiful, its small streets are so nice, the night life is...    overwhelming. Yes, it's a great neighborhood to visit or hang out but not to live in. Be warned.
 
 {:.c-blog-image--centered}
 ![Barri Gòtic district](/assets/images/blog/articles/2020-02-08-barcelona/visits/barri-gotic.jpg)
@@ -82,12 +82,13 @@ One nice thing, we were hosted by a couple that runs a café located right below
 
 At the end of September, Catalonia celebrates the Merce, Saint Mercedes. During 5 days, there are events in all the city center.
 
-These days were just crazy. There were so many people in the city. All flats and rooms were booked and  packed 😱. There was an event at every corner of the city center.
+These days were just crazy. There were so many people in the city 😱
+All flats and rooms were booked and  packed. There was an event at every corner of the city center.
 
 {:.c-blog-image--centered}
 ![Merce celebration](/assets/images/blog/articles/2020-02-08-barcelona/visits/merce-crowded-city-center.jpg)
 
-As for us, we went to a street food event in the Gothic Quarter. We enjoyed some red wine and tapas of course!
+As for us, we went to a street food event in the Gothic neighborhood. We enjoyed some red wine and tapas of course!
 
 {:.c-blog-image--centered}
 ![Merce BORN festival](/assets/images/blog/articles/2020-02-08-barcelona/visits/merce-born-festival.jpg)
