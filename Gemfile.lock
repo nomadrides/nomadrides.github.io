@@ -132,7 +132,7 @@ GEM
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (4.1.0)
-    nokogiri (1.10.4)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     padrino-helpers (0.13.3.3)
       i18n (~> 0.6, >= 0.6.7)
@@ -178,7 +178,7 @@ DEPENDENCIES
   middleman-protect-emails (~> 0.4.0)
   middleman-robots (~> 1.2.3)
   middleman-sitemap!
-  nokogiri (~> 1.10.4)
+  nokogiri (~> 1.10.8)
   slim (~> 3.0.6)
 
 BUNDLED WITH
