@@ -3,4 +3,4 @@ div class="l-join-us"
     div class="small-12 medium-12 columns l-join-us-container"
       p class="l-join-us-title" But what about YOU?!
       p class="l-join-us-subtitle" We'd love to meet you and go for a ride.
-      = mail_to data.site.mail, 'Join us', class: "button ghost l-join-us-link"
+      = link_to 'Join us', protect_email(data.site.mail), class: "button ghost l-join-us-link"

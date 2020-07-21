@@ -63,8 +63,7 @@
   margin-bottom: rem-calc(10);
 
   i {
-    @include animation(bounce 3s infinite);
-
+    animation: bounce 3s infinite;
     display: block;
     font-size: rem-calc(40);
     margin-left: rem-calc(-15);

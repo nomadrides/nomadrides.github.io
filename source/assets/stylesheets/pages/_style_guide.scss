@@ -12,7 +12,7 @@
   margin-bottom: rem-calc(20);
 
   .bouncing {
-    @include animation(bounce 3s infinite);
+    animation: bounce 3s infinite;
     display: block;
   }
 }

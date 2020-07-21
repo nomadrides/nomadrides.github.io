@@ -10,4 +10,4 @@
           = data.rides.current.period
         p class="maul"
           | 🙌 🙌 🙌
-      = mail_to data.site.mail, "Let's meet!", class: "button ghost"
+      = link_to "Let's meet!", protect_email(data.site.mail), class: "button ghost"

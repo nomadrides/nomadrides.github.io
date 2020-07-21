@@ -1,4 +1,4 @@
-::Sass.load_paths << File.join(root, 'node_modules')
+::SassC.load_paths << File.join(root, 'node_modules')
 
 Time.zone = 'Paris'
 
@@ -8,7 +8,6 @@ set :images_dir,  'assets/images'
 set :js_dir,      'assets/javascripts'
 
 activate :autoprefixer
-activate :protect_emails
 
 activate :external_pipeline,
   name: :webpack,
