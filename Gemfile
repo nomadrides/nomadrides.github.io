@@ -13,5 +13,5 @@ gem 'middleman-deploy',         git: 'https://github.com/middleman-contrib/middl
 gem 'middleman-sitemap',        git: 'https://github.com/matsu911/middleman-sitemap', branch: 'master'
 
 gem 'builder',                  '~> 3.2.2'  # for feed.xml.builder
-gem 'nokogiri',                 '~> 1.11.0' # for feed.xml builder
+gem 'nokogiri',                 '~> 1.12.5' # for feed.xml builder
 gem 'slim',                     '~> 3.0.6'
